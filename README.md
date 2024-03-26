@@ -5,7 +5,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 ## Alunos integrantes da equipe
 
 * Fernando Valle Gusmão
-* Nome completo do aluno 2
+* João Victor de Almeida Maia
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
