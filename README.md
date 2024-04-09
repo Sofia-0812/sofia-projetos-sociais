@@ -7,9 +7,9 @@ A dor que buscamos resolver é a desconexão entre voluntários e projetos socia
 * Fernando Valle Gusmão
 * João Victor de Almeida Maia
 * Sofia Grossi Vieira Santos
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Matheus
+* Felipe
+* Enzo
 
 ## Professores responsáveis
 
