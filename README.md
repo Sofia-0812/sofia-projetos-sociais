@@ -9,7 +9,7 @@ A dor que buscamos resolver é a desconexão entre voluntários e projetos socia
 * Sofia Grossi Vieira Santos
 * Matheus
 * Felipe
-* Enzo
+* Enzo Moraes Martini
 
 ## Professores responsáveis
 
