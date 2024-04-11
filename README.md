@@ -14,7 +14,7 @@ A dor que buscamos resolver é a desconexão entre voluntários e projetos socia
 ## Professores responsáveis
 
 * Rommel Vieira Carneiro
-* Nome completo do professor 2
+* Tamara Simões Silva
 
 ## Instruções de utilização
 
