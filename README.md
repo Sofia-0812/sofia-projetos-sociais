@@ -8,7 +8,7 @@ A dor que buscamos resolver é a desconexão entre voluntários e projetos socia
 * João Victor de Almeida Maia
 * Sofia Grossi Vieira Santos
 * Matheus
-* Felipe
+* Filipe
 * Enzo Moraes Martini
 
 ## Professores responsáveis
