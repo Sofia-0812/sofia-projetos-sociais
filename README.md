@@ -7,7 +7,7 @@ A dor que buscamos resolver é a desconexão entre voluntários e projetos socia
 * Fernando Valle Gusmão
 * João Victor de Almeida Maia
 * Sofia Grossi Vieira Santos
-* Matheus
+* Matheus Akl Barbalho Falqueto
 * Filipe
 * Enzo Moraes Martini
 
