@@ -474,20 +474,56 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">Usuário do sistema</th>
-                        <td>
-                          Registrar minhas tarefas<span class="exemplo"
-                            >EXEMPLO</span
-                          >
-                        </td>
-                        <td>Não esquecer de fazê-las</td>
-                      </tr>
                       <tr>
                         <th scope="row">Administrador</th>
                         <td>
-                          Alterar permissões<span class="exemplo">EXEMPLO</span>
+                          Alterar permissões
                         </td>
                         <td>Permitir que possam administrar contas</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Cadastrar meus projetos no site
+                          >
+                        </td>
+                        <td>Encontrar voluntários</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Poder consultar o background dos anfitriões
+                          >
+                        </td>
+                        <td>Ter maior conhecimento do projeto</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Poder avaliar minha experiência com os anfitriões<span class="exemplo"
+                        </td>
+                        <td>Informar outros voluntários</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Poder ter acesso à quantidade de voluntários que exibiram interesse no projeto/quanto dinheiro foi arrecadado
+                        </td>
+                        <td>Auxiliar a organizar o projeto</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Poder favoritar projetos
+                        </td>
+                        <td>Ter acesso fácil a eles</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>
+                          Poder pesquisar projetos de acordo com localização/horário
+                        </td>
+                        <td>Ter maior controle</td>
                       </tr>
                     </tbody>
                   </table>
@@ -556,20 +592,124 @@
                       <tr>
                         <th scope="row">RF-001</th>
                         <td>
-                          Permitir que o usuário cadastre tarefas<span
-                            class="exemplo"
-                            >EXEMPLO</span
-                          >
+                          O sistema deve apresentar uma barra de busca que gere resultados a partir de palavras chave
                         </td>
                         <td>ALTA</td>
                       </tr>
                       <tr>
                         <th scope="row">RF-002</th>
                         <td>
-                          Emitir um relatório de tarefas no mês<span
-                            class="exemplo"
-                            >EXEMPLO</span
-                          >
+                          O sistema deve apresentar uma ferramenta de filtro com filtros diferentes para cada tipo de ação do voluntariado(cada um para uma tela diferente)
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-003</th>
+                        <td>
+                          O sistema deve conseguir abrir uma tela de um projeto específico quando o usuário clicar no card desse projeto
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-004</th>
+                        <td>
+                          O voluntariado deve poder favoritar projetos que o interessem
+                        </td>
+                        <td>BAIXA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-005</th>
+                        <td>
+                          O sistema deve conter um botâo de participar nos cards de projeto para o voluntariado poder manifestar interesse de participar
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-006</th>
+                        <td>
+                          Cada projeto de voluntário ou de doação de material deve mostrar uma imagem, informações do anfitrião; uma descrição, a localização(mapa) e o horário do projeto
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-007</th>
+                        <td>
+                          Cada projeto de doação de dinheiro deve mostrar uma imagem, informações do anfitrião, descrição do projeto, descrição de onde o dinheiro vai ser aplicado e as informações bancárias para a doação
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-008</th>
+                        <td>
+                          O sistema deve conter uma tela de FAQ funcional com solucões para dúvidas frequentes
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-009</th>
+                        <td>
+                          Um usuário deve poder realizar cadastro no site criando login nome de usuário e senha
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-010</th>
+                        <td>
+                          Um usuário deve poder realizar login usando seu nome de usuário e senha cadastrados
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-011</th>
+                        <td>
+                          Um usuários deve conseguir se tornar anfitrião(parceiro) do site
+                        </td>
+                        <td>BAIXA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-012</th>
+                        <td>
+                          O sistema deve possuir um card de perfil do voluntário com as categorias: Perfil; Favoritos; Meus projetos; Sair da conta
+                        </td>
+                        <td>BAIXA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-013</th>
+                        <td>
+                          O sistema deve possuir um card de perfil do anfitrião com as categorias: Perfil; Cadastrar projeto; Projetos cadastrados; Minha valiação; Sair da conta;
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-014</th>
+                        <td>
+                          O sistema deve conter uma tela da conta, que mostra as informações cadastradas do usuário e a possibilita alterações
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-015</th>
+                        <td>
+                          O sistema deve conter uma tela dos Favoritos, que mostra os projetos favoritados
+                        </td>
+                        <td>BAIXA</td>
+                      </tr>
+                       <tr>
+                        <th scope="row">RF-016</th>
+                        <td>
+                          O sistema deve conter uma tela dos Meus Projetos, que mostra para o usuário os projetos que ele participou e que deixa ele avaliar os anfitriões
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                       <td>
+                         <th scope="row">RF-017</th>
+                          O sistema deve conter uma tela dos Projetos Cadastrados e Minha avaliação, que mostra para o anfitrião seus projetos cadastrados e que mostra sua avaliação
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                       <tr>
+                       <td>
+                         <th scope="row">RF-018</th>
+                          O sistema deve conter uma tela que possibilite o anfitrião cadastrar novos projetos
                         </td>
                         <td>MÉDIA</td>
                       </tr>
@@ -590,17 +730,72 @@
                         <th scope="row">RNF-001</th>
                         <td>
                           O sistema deve ser responsivo para rodar em um
-                          dispositivos móvel<span class="exemplo">EXEMPLO</span>
+                          dispositivos móvel
                         </td>
                         <td>MÉDIA</td>
                       </tr>
                       <tr>
                         <th scope="row">RNF-002</th>
                         <td>
-                          Deve processar requisições do usuário em no máximo
-                          3s<span class="exemplo">EXEMPLO</span>
+                          O processo de desenvolvimento deve utilizar html, css e Javascript
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-003</th>
+                        <td>
+                          O sistema deverá estar disponível 7/24 
+                        </td>
+                        <td>ALTA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-004</th>
+                        <td>
+                          Os dados dos voluntários e anfitriões devem ser protegidos
                         </td>
                         <td>BAIXA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-005</th>
+                        <td>
+                         Deve ser compatível com Windows, Linux e Mac
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-006</th>
+                        <td>
+                          Será usado, em primeira instância, somente no Brasil
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-007</th>
+                        <td>
+                          Deve processar requisições do usuário em  no máximo 5 segundos
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-008</th>
+                        <td>
+                           O sistema deve ser capaz de lidar com qualquer número de usuários sem perda de desempenho
+                        </td>
+                        <td>BAIXA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-009</th>
+                        <td>
+                          O sistema deve ser fácil de atualizar e manutenir
+                        </td>
+                        <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RNF-010</th>
+                        <td>
+                          O sistema deve ser fácil de entender e utilizar
+                        </td>
+                        <td>ALTA</td>
                       </tr>
                     </tbody>
                   </table>
@@ -660,7 +855,7 @@
                       membros de sua equipe.
                       <img
                         class="img-fluid"
-                        src="assets/images/exemplo-userflow.png"
+                        src="assets/images/userflow.png"
                         alt="Exemplo de fluxo de usuário"
                       />
                     </p>
