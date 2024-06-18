@@ -158,7 +158,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Função para obter os selecionados de um projeto
   function obterSelecionados(opcoes) {
     const Selecionados = opcoes
-      .filter((opcao) => opcao.selecionado)
       .map((opcao) => opcao.nome)
       .join(", ");
 
