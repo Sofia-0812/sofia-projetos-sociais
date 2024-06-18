@@ -1,0 +1,947 @@
+{
+    "projetos": [
+        {
+            "id": 1,
+            "nome": "Projeto de Inclusão Digital",
+            "anfitrião": "PUC Minas",
+            "imagem": "/assets/imagens/inclusaoDigital.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 7, "nome": "Região Venda Nova", "selecionado": true }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": false },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Projeto para promover inclusão digital entre crianças de comunidades carentes, fornecendo acesso a tecnologia e ensino de habilidades digitais."
+        },
+        {
+            "id": 2,
+            "nome": "Projeto Verde",
+            "anfitrião": "Universidade Federal de Minas Gerais",
+            "imagem": "/assets/imagens/sustentabilidade.jpeg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": true },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": true },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": true },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": false },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": false },
+                    { "id": 3, "nome": "Noite", "selecionado": true }
+                ]
+            },
+            
+            "resumo": "Iniciativa para promover sustentabilidade e educação ambiental em escolas públicas, incentivando práticas ecológicas e conscientização ambiental."
+        },
+        {
+            "id": 3,
+            "nome": "Cuidando dos Animais",
+            "anfitrião": "ONG Amigo Bicho",
+            "imagem": "/assets/imagens/unnamed.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": true },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": true },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": true },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": false },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": false },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": true }
+                ]
+            },
+            "resumo": "Projeto focado no resgate e cuidado de animais de rua, promovendo adoções responsáveis e conscientização sobre bem-estar animal."
+        },
+        {
+            "id": 4,
+            "nome": "Apoio aos Idosos",
+            "anfitrião": "Lar São Vicente",
+            "imagem": "/assets/imagens/asilo.jpeg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": true },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": false },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Iniciativa para melhorar a qualidade de vida dos idosos em asilos e lares de repouso, oferecendo atividades e suporte."
+        },
+        {
+            "id": 5,
+            "nome": "Educação para Todos",
+            "anfitrião": "Instituto Educar",
+            "imagem": "/assets/imagens/escola.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": true },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": false },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": true }
+                ]
+            },
+            "resumo": "Projeto dedicado a oferecer oportunidades educacionais para crianças e jovens de baixa renda, promovendo inclusão social e desenvolvimento."
+        },
+        {
+            "id": 6,
+            "nome": "Saúde e Bem-Estar",
+            "anfitrião": "Hospital Santa Casa",
+            "imagem": "/assets/imagens/hospital.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": true },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": false },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": false },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Programa voltado para a promoção da saúde e bem-estar de pacientes hospitalizados e suas famílias, com foco em cuidados integrados."
+        },
+        {
+            "id": 7,
+            "nome": "Alimentação Solidária",
+            "anfitrião": "Banco de Alimentos",
+            "imagem": "/assets/imagens/comida.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": true },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": false },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": false },
+                    { "id": 3, "nome": "Noite", "selecionado": true }
+                ]
+            },
+            "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição."
+        }
+    ],
+
+    "doacoes": [
+        {
+            "id": 1,
+            "nome": "Campanha de Arrecadação de Alimentos",
+            "anfitrião": "Cruz Vermelha",
+            "imagem": "/assets/imagens/arrecadacaoAlimentos.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": true },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": true },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": false },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": false },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Campanha para arrecadação de alimentos para famílias carentes e idosos necessitados."
+        }, 
+        {
+            "id": 2,
+            "nome": "Doação de Materiais Escolares",
+            "anfitrião": "Projeto Ler e Escrever",
+            "imagem": "/assets/imagens/materiaisEscolares.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": true },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": true }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Campanha para fornecer materiais escolares a crianças de famílias carentes, promovendo o acesso à educação."
+        },
+        {
+            "id": 3,
+            "nome": "Doação de Roupas e Cobertores",
+            "anfitrião": "Fundação Amor ao Próximo",
+            "imagem": "/assets/imagens/roupasCobertores.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": true },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": true },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": true }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": true }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Coleta de roupas e cobertores para ajudar famílias e indivíduos em situação de rua durante o inverno."
+        },
+        {
+            "id": 4,
+            "nome": "Doação de Livros",
+            "anfitrião": "Biblioteca Comunitária",
+            "imagem": "/assets/imagens/doacaoLivros.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": true },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": true },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": true },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": false },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Coleta de livros para montar bibliotecas em hospitais e escolas públicas, incentivando a leitura."
+        },
+        {
+            "id": 5,
+            "nome": "Coleta de Brinquedos",
+            "anfitrião": "Associação Alegria de Viver",
+            "imagem": "/assets/imagens/coletaBrinquedos.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": true },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Coleta de brinquedos novos e usados para distribuir a crianças em hospitais e orfanatos."
+        },
+        {
+            "id": 6,
+            "nome": "Doação de Equipamentos de Proteção Individual (EPIs)",
+            "anfitrião": "Hospital da Esperança",
+            "imagem": "/assets/imagens/doacaoEPIs.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": true },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": false },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": true },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": true }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Arrecadação de EPIs para proteger profissionais de saúde e pacientes durante a pandemia."
+        },
+        {
+            "id": 7,
+            "nome": "Coleta de Produtos de Higiene Pessoal",
+            "anfitrião": "ONG Saúde e Vida",
+            "imagem": "/assets/imagens/produtosHigiene.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": true },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": false },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": true },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": false },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": true }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": false },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": true },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": false },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": true },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": false },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Coleta de produtos de higiene pessoal para distribuição a famílias carentes e indivíduos em situação de rua."
+        },
+        {
+            "id": 8,
+            "nome": "Campanha de Proteção Animal",
+            "anfitrião": "Associação Protetora dos Animais",
+            "imagem": "/assets/imagens/protecaoAnimal.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": true },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": true },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "local": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Região Barreiro", "selecionado": false },
+                    { "id": 2, "nome": "Região Centro-Sul", "selecionado": true },
+                    { "id": 3, "nome": "Região Leste", "selecionado": false },
+                    { "id": 4, "nome": "Região Nordeste", "selecionado": true },
+                    { "id": 5, "nome": "Região Noroeste", "selecionado": false },
+                    { "id": 6, "nome": "Região Norte", "selecionado": false },
+                    { "id": 7, "nome": "Região Oeste", "selecionado": false },
+                    { "id": 8, "nome": "Região Pampulha", "selecionado": true },
+                    { "id": 9, "nome": "Região Venda Nova", "selecionado": false }
+                ]
+            },
+            "dia": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Segunda-Feira", "selecionado": true },
+                    { "id": 2, "nome": "Terça-Feira", "selecionado": false },
+                    { "id": 3, "nome": "Quarta-Feira", "selecionado": true },
+                    { "id": 4, "nome": "Quinta-Feira", "selecionado": false },
+                    { "id": 5, "nome": "Sexta-Feira", "selecionado": true },
+                    { "id": 6, "nome": "Sábado", "selecionado": true },
+                    { "id": 7, "nome": "Domingo", "selecionado": false }
+                ]
+            },
+            "periodo": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Manhã", "selecionado": true },
+                    { "id": 2, "nome": "Tarde", "selecionado": true },
+                    { "id": 3, "nome": "Noite", "selecionado": false }
+                ]
+            },
+            "resumo": "Campanha para arrecadar ração, medicamentos, cobertores e outros itens essenciais para animais resgatados e em situação de abandono."
+        }              
+    ],
+
+    "cfinanceira":
+    [
+        {
+            "id": 1,
+            "nome": "Campanha de Inclusão Digital para Idosos",
+            "anfitrião": "Instituto Bem Viver",
+            "imagem": "/assets/imagens/inclusaoDigitalIdosos.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": true },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 123.456.789-00",
+            "resumo": "Campanha para financiar cursos de inclusão digital para idosos, promovendo acesso à tecnologia e ao conhecimento."
+        },
+        {
+            "id": 2,
+            "nome": "Campanha de Apoio aos Hospitais Públicos",
+            "anfitrião": "Fundação Saúde para Todos",
+            "imagem": "/assets/imagens/apoioHospitais.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": true },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 987.654.321-00",
+            "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes."
+        },
+        {
+            "id": 3,
+            "nome": "Campanha de Apoio às Crianças em Situação de Risco",
+            "anfitrião": "ONG Criança Feliz",
+            "imagem": "/assets/imagens/apoioCriancas.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 159.753.486-00",
+            "resumo": "Campanha para arrecadar fundos destinados a programas de proteção e educação para crianças em situação de risco."
+        },
+        {
+            "id": 4,
+            "nome": "Campanha de Assistência a Famílias Carentes",
+            "anfitrião": "Projeto Solidariedade",
+            "imagem": "/assets/imagens/assistenciaFamilias.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": true },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 753.159.852-00",
+            "resumo": "Arrecadação de dinheiro para fornecer alimentos, roupas e suporte financeiro a famílias em situação de vulnerabilidade."
+        },
+        {
+            "id": 5,
+            "nome": "Campanha de Preservação Ambiental",
+            "anfitrião": "Verde Esperança",
+            "imagem": "/assets/imagens/preservacaoAmbiental.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": true },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": true },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 456.789.123-00",
+            "resumo": "Campanha para financiar projetos de preservação ambiental e recuperação de áreas degradadas."
+        },
+        {
+            "id": 6,
+            "nome": "Campanha de Educação Inclusiva",
+            "anfitrião": "Fundação Educa Brasil",
+            "imagem": "/assets/imagens/educacaoInclusiva.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": false },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": true },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": false },
+                    { "id": 7, "nome": "Educação", "selecionado": true }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 852.456.753-00",
+            "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos."
+        },
+        {
+            "id": 7,
+            "nome": "Campanha de Proteção Animal",
+            "anfitrião": "Associação Protetora dos Animais",
+            "imagem": "/assets/imagens/protecaoAnimal.jpg",
+            "temas": {
+                "tipo": "checkbox",
+                "opcoes": [
+                    { "id": 1, "nome": "Idosos", "selecionado": false },
+                    { "id": 2, "nome": "Animais", "selecionado": true },
+                    { "id": 3, "nome": "Hospitais", "selecionado": false },
+                    { "id": 4, "nome": "Crianças", "selecionado": false },
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas", "selecionado": false },
+                    { "id": 6, "nome": "Meio Ambiente", "selecionado": true },
+                    { "id": 7, "nome": "Educação", "selecionado": false }
+                ]
+            },
+            "ibancarias": "Chave do pix CPF: 150.579.436-69",
+            "resumo": "Campanha para arrecadar fundos destinados à compra de ração, medicamentos, cobertores e outros itens essenciais para animais resgatados."
+        }
+    ]
+}
