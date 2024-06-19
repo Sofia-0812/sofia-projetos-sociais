@@ -2,6 +2,8 @@
 
 html{
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 footer, body, main, ul, li{
@@ -16,11 +18,13 @@ body{
 
 header{
     grid-column: 1/4;
+    background-color: rgb(212, 212, 212);
 }
 
 footer{
     grid-column: 1/4;
     background-color:rgb(212, 212, 212);
+    width: 100%;
 }
 
 footer p{
@@ -191,6 +195,9 @@ section .card{
     width: 35%;
 }
 
+.resumo{
+    margin-bottom: 0px;
+}
 
 section a{
     text-decoration: none;
@@ -233,7 +240,7 @@ section a{
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1195px){
 
     main{
         display: block;

@@ -521,17 +521,17 @@
         },
         {
             "id": 2,
-            "nome": "Campanha de Apoio aos Hospitais Públicos",
-            "anfitrião": "Fundação Saúde para Todos",
-            "imagem": "/assets/imagens/apoioHospitais.jpg",
+            "nome": "Campanha de Educação Inclusiva",
+            "anfitrião": "Fundação Educa Brasil",
+            "imagem": "/assets/imagens/educacaoInclusiva.jpg",
             "temas": {
                 "opcoes": [
-                    { "id": 3, "nome": "Hospitais"},
-                    { "id": 5, "nome": "Pessoas e famílias necessitadas"}
+                    { "id": 4, "nome": "Crianças"},
+                    { "id": 7, "nome": "Educação"}
                 ]
             },
-            "ibancarias": "Chave do pix CPF: 987.654.321-00",
-            "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes."
+            "ibancarias": "Chave do pix CPF: 852.456.753-00",
+            "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos."
         },
         {
             "id": 3,
@@ -555,8 +555,7 @@
             "imagem": "/assets/imagens/assistenciaFamilias.jpg",
             "temas": {
                 "opcoes": [
-                    { "id": 5, "nome": "Pessoas e famílias necessitadas"},
-                    { "id": 7, "nome": "Educação"}
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas"}
                 ]
             },
             "ibancarias": "Chave do pix CPF: 753.159.852-00",
@@ -570,8 +569,7 @@
             "temas": {
                 "opcoes": [
                     { "id": 2, "nome": "Animais"},
-                    { "id": 6, "nome": "Meio Ambiente"},
-                    { "id": 7, "nome": "Educação"}
+                    { "id": 6, "nome": "Meio Ambiente"}
                 ]
             },
             "ibancarias": "Chave do pix CPF: 456.789.123-00",
@@ -579,17 +577,17 @@
         },
         {
             "id": 6,
-            "nome": "Campanha de Educação Inclusiva",
-            "anfitrião": "Fundação Educa Brasil",
-            "imagem": "/assets/imagens/educacaoInclusiva.jpg",
+            "nome": "Campanha de Apoio aos Hospitais Públicos",
+            "anfitrião": "Fundação Saúde para Todos",
+            "imagem": "/assets/imagens/apoioHospitais.jpg",
             "temas": {
                 "opcoes": [
-                    { "id": 4, "nome": "Crianças"},
-                    { "id": 7, "nome": "Educação"}
+                    { "id": 3, "nome": "Hospitais"},
+                    { "id": 5, "nome": "Pessoas e famílias necessitadas"}
                 ]
             },
-            "ibancarias": "Chave do pix CPF: 852.456.753-00",
-            "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos."
+            "ibancarias": "Chave do pix CPF: 987.654.321-00",
+            "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes."
         },
         {
             "id": 7,
@@ -598,8 +596,7 @@
             "imagem": "/assets/imagens/protecaoAnimal.jpg",
             "temas": {
                 "opcoes": [
-                    { "id": 2, "nome": "Animais"},
-                    { "id": 6, "nome": "Meio Ambiente"}
+                    { "id": 2, "nome": "Animais"}
                 ]
             },
             "ibancarias": "Chave do pix CPF: 150.579.436-69",
