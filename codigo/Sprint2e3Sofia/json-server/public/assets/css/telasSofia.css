@@ -20,6 +20,12 @@ header{
 
 footer{
     grid-column: 1/4;
+    background-color:rgb(212, 212, 212);
+}
+
+footer p{
+    text-align: center;
+    margin: 30px 0px;
 }
 
 main{
@@ -81,25 +87,24 @@ header a{
     grid-row: 1;
 }
 
-#m4 button{
+#m4{
     grid-column: 4;
     grid-row: 1;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 4px 55px;
     border-radius: 20px;
     border: 2px solid black;
     font-weight: bold;
 }
 
-#m5 button{
+#m5{
     grid-column: 5;
     grid-row: 1;
-    background-color: lightslategray;
+    background-color: rgb(156, 173, 191);
     padding: 6px 40px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid black;;
     font-weight: bold;
-    color: white;
 }
 
 #m3:hover, #m4:hover, #m5:hover{
@@ -120,6 +125,7 @@ header a{
     grid-column: 4;
     grid-row: 3;
 }
+
 
 /*PAGINA VAGAS DE VOLUNTARIADO */
 
@@ -155,7 +161,8 @@ section .card{
 }
 
 .card .conteudo{
-    display: flex;
+    display: flex;              
+    align-items: center;   
 }
 
 .conteudo p{
@@ -179,6 +186,11 @@ section .card{
     background-color: lightgrey;
     border-radius: 5px;
 }
+
+.projimagem{
+    width: 35%;
+}
+
 
 section a{
     text-decoration: none;
@@ -206,6 +218,7 @@ section a{
 .local, .dias, .periodos{
     display: none;
 }
+
 /* MOBILE */
 
 #menuTuggle, #filtroTuggle{
@@ -226,9 +239,13 @@ section a{
         display: block;
         padding-top: 80px;
     }
-    
+
+    .titulo{
+        margin-bottom: 20px;
+    }
+
     #search{
-        margin: 10px 0px;
+        margin: 5px 0px;
         width: calc(100% - 50px);
         display: inline;
         margin-right: 15px;
@@ -325,24 +342,6 @@ section a{
         display: none;
     }
 
-    #m4 button{
-        background-color: lightslategray;
-        padding: 0px 40px;
-        border-radius: 20px;
-        border: none;
-        font-weight: bold;
-        color: white;
-    }
-
-    #m5 button{
-        background-color: lightslategray;
-        padding: 0px 40px;
-        border-radius: 20px;
-        border: none;
-        font-weight: bold;
-        color: white;
-    }
-
     #m1, #m2, #m4, #m5{
         background-color: lightslategray;
         padding: 12px 20px;
@@ -371,8 +370,8 @@ section a{
         width: 50px;
         height: inherit;
         position: absolute;
-        top: 15px;
-        right: 30px;
+        top: 25px;
+        right: 15px;
         line-height: 60px;
         z-index: 1001;
     }
@@ -458,3 +457,27 @@ section a{
 
 }
 
+@media screen and (max-width: 730px){
+
+    .card .conteudo{
+        display: block;              
+    }
+
+    .conteudo img{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #filters{
+        width: 63%;
+    }
+
+    .menu li{
+        display: block;
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+
+}
