@@ -94,7 +94,7 @@ header a{
 #m5 button{
     grid-column: 5;
     grid-row: 1;
-    background-color: rgb(166, 93, 235);
+    background-color: lightslategray;
     padding: 6px 40px;
     border-radius: 20px;
     border: none;
@@ -103,7 +103,7 @@ header a{
 }
 
 #m3:hover, #m4:hover, #m5:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 #m6{
@@ -208,11 +208,11 @@ section a{
 }
 /* MOBILE */
 
-#menuTuggle{
+#menuTuggle, #filtroTuggle{
     display: none;
 }
 
-.menu-icon{
+.menu-icon, .filtro-icon{
     display: none;
 }
 
@@ -222,9 +222,64 @@ section a{
 
 @media screen and (max-width: 1024px){
 
+    main{
+        display: block;
+        padding-top: 80px;
+    }
+    
+    #search{
+        margin: 10px 0px;
+        width: calc(100% - 50px);
+        display: inline;
+        margin-right: 15px;
+    }
+
+    #secaoFiltros{
+        display: inline;
+    }
+
+    #filters{
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: top;
+        top: 0px;
+        left: 0px;
+        width: 40%;
+        height: 100%;
+        overflow: hidden;
+        background-color: lightslategray;
+        border: 4px solid white;
+        color: white;
+        border-left: none;
+        border-radius: 1%;
+        padding-left: 10px;
+        z-index: 900;
+    }
+
+    .filtroContainer{
+        border-top: 2px solid white;
+    }
+
+    .topo{
+        border-top: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    .cards{
+        margin-top: 10px;
+        z-index: 1;
+    }
+
     #logoMobile{
         display: flex;
         justify-content: center;
+    }
+
+    #logo:hover{
+        transform: scale(1.02);
+        cursor: pointer;
     }
 
     .header{
@@ -240,7 +295,7 @@ section a{
         width: 100%;
         height: 100%;
     }
-
+    
     .menu{
         display: flex;
         position: fixed;
@@ -252,25 +307,54 @@ section a{
         height: 100%;
         overflow: hidden;
         background-color: rgba(0,0,0,0.7);
+        z-index: 1000;
     }
 
     .menu li{
         display: block;
-        width: 100%;
-        margin-left: 0px;
+        width: 50%;
+        margin-left: 25%;
         margin-bottom: 20px;
+    }
+
+    .mItem:hover{
+        transform: scale(1.02);
     }
 
     #m3{
         display: none;
     }
 
+    #m4 button{
+        background-color: lightslategray;
+        padding: 0px 40px;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    #m5 button{
+        background-color: lightslategray;
+        padding: 0px 40px;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+        color: white;
+    }
+
     #m1, #m2, #m4, #m5{
-        background-color: blueviolet;
+        background-color: lightslategray;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
     }
 
     #m6, #m7, #m8{
-        background-color: aqua;
+        background-color: gray;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
     }
 
     .menu li a{
@@ -278,6 +362,7 @@ section a{
         text-align: center;
         width: 100%;
         color: white;
+        font-weight: bold;
     }
 
     .menu-icon{
@@ -289,14 +374,28 @@ section a{
         top: 15px;
         right: 30px;
         line-height: 60px;
-        z-index: 999;
-
+        z-index: 1001;
     }
-    
+
+    .filtro-icon{
+        display: inline;
+        color: lightslategray;
+        height: inherit;
+    }
+
     .menu-icon:hover{
         cursor: pointer;
     }
+
+    .filtro-icon:hover{
+        cursor: pointer;
+    }
+
     .menu-icon i{
+        font-size: 1.7em;
+    }
+
+    .filtro-icon i{
         font-size: 1.7em;
     }
 
@@ -329,7 +428,33 @@ section a{
         display: none;
     }
 
-    
+    #filtroTuggle:checked ~ label i:nth-child(2){
+        display: inline;
+    }
+
+    #filtroTuggle:checked ~ label i:first-child{
+        display: none;
+    }
+
+    #filtroTuggle:not(checked) ~ label i:nth-child(2){
+        display: none;
+    }
+
+    #filtroTuggle:not(checked) ~ label i:first-child{
+        display: inline;
+    }
+
+    #filtroTuggle:checked ~ #filters{
+        display: block;
+    }
+
+    #filtroTuggle:not(checked) ~ #filters{
+        display: none;
+    }
+
+    #filtroTuggle{
+        display: none;
+    }
 
 }
 

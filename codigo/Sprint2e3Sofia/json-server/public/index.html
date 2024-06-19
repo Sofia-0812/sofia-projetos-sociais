@@ -18,7 +18,7 @@
 
     <header>
         <nav class="header">
-            <a href="#" id="logoMobile"><img src="assets/imagens/Conexão Solidária Logo-3.png" width="150px"></a>
+            <a href="#" id="logoMobile"><img id="logo" src="assets/imagens/Conexão Solidária Logo-3.png" width="200px"></a>
             <div id="secoesMenu">
             <input type="checkbox" id="menuTuggle">
             <label for="menuTuggle" class="menu-icon">
@@ -45,7 +45,13 @@
 
         <nav class="buscaEFiltros">
             <input type="search" id="search" placeholder="Buscar">
-            <div class="filtroContainer">
+            <input type="checkbox" id="filtroTuggle">
+            <label for="filtroTuggle" class="filtro-icon">
+                <i class="fa-solid fa-filter"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <div id="filters">
+            <div class="filtroContainer topo">
                 <h6 class="tituloFiltro">Tema:</h6>
                 <div class="filtro"><input class="temaInput" type="checkbox" id="t1" value="Idosos"><p class="legenda">Idosos</p></div>
                 <div class="filtro"><input class="temaInput" type="checkbox" id="t2" value="Animais"><p class="legenda">Animais</p></div>
@@ -82,6 +88,7 @@
                 <div class="filtro"><input class="periodoInput" type="checkbox" id="p1" value="Manhã"><p class="legenda">Manhã</p></div>
                 <div class="filtro"><input class="periodoInput" type="checkbox" id="p2" value="Tarde"><p class="legenda">Tarde</p></div>
                 <div class="filtro"><input class="periodoInput" type="checkbox" id="p3" value="Noite"><p class="legenda">Noite</p></div>
+            </div>
             </div>
         </nav>
         <section class="cards">
