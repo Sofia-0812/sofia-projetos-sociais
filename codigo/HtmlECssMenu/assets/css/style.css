@@ -2,6 +2,8 @@
 
 html{
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 footer, body, main, ul, li{
@@ -16,10 +18,19 @@ body{
 
 header{
     grid-column: 1/4;
+    background-color: rgb(212, 212, 212);
 }
 
 footer{
     grid-column: 1/4;
+    background-color:rgb(212, 212, 212);
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin: 30px 0px;
 }
 
 main{
@@ -47,6 +58,9 @@ header a{
     padding:  10px 65px;
     align-items: center;
     padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .mItem{
@@ -78,29 +92,28 @@ header a{
     grid-row: 1;
 }
 
-#m4 button{
+#m4{
     grid-column: 4;
     grid-row: 1;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 4px 55px;
     border-radius: 20px;
     border: 2px solid black;
     font-weight: bold;
 }
 
-#m5 button{
+#m5{
     grid-column: 5;
     grid-row: 1;
-    background-color: rgb(166, 93, 235);
+    background-color: rgb(156, 173, 191);
     padding: 6px 40px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid black;
     font-weight: bold;
-    color: white;
 }
 
 #m3:hover, #m4:hover, #m5:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 #m6{
@@ -116,4 +129,156 @@ header a{
 #m8{
     grid-column: 4;
     grid-row: 3;
+}
+
+/* MOBILE */
+
+#menuTuggle{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+#logoMobile{
+    display: none;
+}
+
+@media screen and (max-width: 1195px){
+
+    #logoMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+
+    .header{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: lightgray;
+        z-index: 1; 
+    }
+
+    header nav #secoesMenu{
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .menu{
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.7);
+        z-index: 1000;
+    }
+
+    .menu li{
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+
+    .mItem:hover{
+        transform: scale(1.02);
+    }
+
+    #m3{
+        display: none;
+    }
+
+    #m1, #m2, #m4, #m5{
+        background-color: lightslategray;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    #m6, #m7, #m8{
+        background-color: gray;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .menu li a{
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: white;
+        font-weight: bold;
+    }
+
+    .menu-icon{
+        display: block;
+        color: white;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 25px;
+        right: 15px;
+        line-height: 60px;
+        z-index: 1001;
+    }
+
+    .menu-icon:hover{
+        cursor: pointer;
+    }
+
+    .menu-icon i{
+        font-size: 1.7em;
+    }
+
+    #menuTuggle:checked ~ label i:nth-child(2){
+        display: block;
+    }
+
+    #menuTuggle:checked ~ label i:first-child{
+        display: none;
+    }
+
+    #menuTuggle:not(checked) ~ label i:nth-child(2){
+        display: none;
+    }
+
+    #menuTuggle:not(checked) ~ label i:first-child{
+        display: block;
+    }
+
+    #menuTuggle:checked ~ ul{
+        display: flex;
+    }
+
+    
+    #menuTuggle:not(checked) ~ ul{
+        display: none;
+    }
+
+    #menuTuggle{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 730px){
+
+    .menu li{
+        display: block;
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
 }
