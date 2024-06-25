@@ -70,6 +70,7 @@ header a{
 }
 
 .bar{
+    display: block;
     grid-column: 1/6;
     grid-row: 2;
     height: 1px;
@@ -77,13 +78,35 @@ header a{
     margin-bottom: 10px;
 }
 
-#m1{
-    grid-column: 1;
-    grid-row: 1;
+#menuPerfil{
+    display: none;
+    width: fit-content;
+    background-color: rgb(166, 165, 165);
+    position: fixed;
+    z-index: 3;
+    top: 65px;
+    right: 100px;
+    padding: 0px;
 }
 
-#m2{
-    grid-column: 2;
+.mpItem{
+    justify-self: center;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px 20px;
+}
+
+.mpItem:hover{
+    background-color: rgb(176, 176, 176);
+}
+
+#menuPerfil li{
+    list-style: none;
+    display: block;
+}
+
+#m1{
+    grid-column: 1;
     grid-row: 1;
 }
 
@@ -92,28 +115,31 @@ header a{
     grid-row: 1;
 }
 
-#m4{
-    grid-column: 4;
-    grid-row: 1;
-    background-color: whitesmoke;
-    padding: 4px 55px;
-    border-radius: 20px;
-    border: 2px solid black;
-    font-weight: bold;
-}
-
-#m5{
+#m9, .perfil-icon{
     grid-column: 5;
     grid-row: 1;
-    background-color: rgb(156, 173, 191);
-    padding: 6px 40px;
-    border-radius: 20px;
-    border: 2px solid black;
-    font-weight: bold;
 }
 
-#m3:hover, #m4:hover, #m5:hover{
-    transform: scale(1.02);
+.perfil-icon{
+    display: flex;
+    justify-content: center;
+}
+
+#perfil:checked ~ #menuPerfil{
+    display: block;
+}
+
+#perfil:not(checked) ~ #menuPerfil{
+    display: none;
+}
+
+#perfil{
+    display: none;
+}
+
+#m3:hover, .perfil-icon:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 #m6{
@@ -141,7 +167,7 @@ header a{
     display: none;
 }
 
-#logoMobile{
+#logoMobile, #perfilMobile, .perfilMobile-icon{
     display: none;
 }
 
@@ -150,6 +176,28 @@ header a{
     #logoMobile{
         display: flex;
         justify-content: center;
+    }
+
+    #perfilMobile, .perfilMobile-icon{
+        display: block;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 5px;
+        left: 15px;
+        line-height: 60px;
+    }
+
+    #perfilMobile:checked ~ #menuPerfil{
+        display: block;
+    }
+    
+    #perfilMobile:not(checked) ~ #menuPerfil{
+        display: none;
+    }
+    
+    #menuPerfil{
+        left: 30px;
     }
 
     #logo:hover{
@@ -176,7 +224,7 @@ header a{
         position: fixed;
         flex-wrap: wrap;
         align-content: center;
-        top: 0px;
+        top: 0;
         left: 0px;
         width: 100%;
         height: 100%;
@@ -196,18 +244,15 @@ header a{
         transform: scale(1.02);
     }
 
-    #m3{
+    #m3, #m9{
         display: none;
     }
 
-    #m1, #m2, #m4, #m5{
-        background-color: lightslategray;
-        padding: 12px 20px;
-        border-radius: 20px;
-        border: none;
+    .bar{
+        height: 0px;
     }
 
-    #m6, #m7, #m8{
+    #m1, #m6, #m7, #m8{
         background-color: gray;
         padding: 12px 20px;
         border-radius: 20px;
@@ -262,7 +307,6 @@ header a{
         display: flex;
     }
 
-    
     #menuTuggle:not(checked) ~ ul{
         display: none;
     }
