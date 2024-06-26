@@ -27,8 +27,69 @@ async function preencherTemplate() {
         const clone = template.content.cloneNode(true);
         const cardTitle = clone.querySelector('.card-title');
         const cardText = clone.querySelector('.card-text');
+        const btnAjudou = clone.getElementById('ajudou');
+        const btnNaoAjudou = clone.getElementById('NaoAjudou');
 
-        if (cardTitle && cardText) {
+        if (cardTitle && cardText && btnAjudou && btnNaoAjudou) {
+
+            // Verificar se os botões devem ser desabilitados
+                const ajudouKey = `ajudou_${duvida.id}`;
+                const naoAjudouKey = `naoAjudou_${duvida.id}`;
+
+               // Checar localStorage para saber se os botões estão desabilitados
+               if (localStorage.getItem(ajudouKey) === 'true') {
+                   btnAjudou.disabled = true;
+                  btnNaoAjudou.disabled = true;
+                } else if (localStorage.getItem(naoAjudouKey) === 'true') {
+                   btnAjudou.disabled = true;
+                   btnNaoAjudou.disabled = true;
+                }
+
+            btnAjudou.addEventListener('click', async() => {
+                duvida.ajudou++;
+                btnAjudou.disabled = true;
+                btnNaoAjudou.disabled = true;
+                localStorage.setItem(ajudouKey, 'true');
+                
+                try {
+                    const response = await fetch(`http://localhost:3000/duvidas/${duvida.id}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(duvida),
+                    });
+                    if (!response.ok) {
+                        throw new Error('Erro ao atualizar a dúvida no servidor');
+                    }
+                    console.log('Dúvida atualizada no servidor com sucesso');
+                } catch (error) {
+                    console.error('Erro ao enviar requisição para atualizar a dúvida:', error);
+                }
+            });
+
+            btnNaoAjudou.addEventListener('click', async() => {
+                duvida.naoAjudou++;
+                btnNaoAjudou.disabled = true;
+                btnAjudou.disabled = true;
+                localStorage.setItem(naoAjudouKey, 'true');
+                try {
+                    const response = await fetch(`http://localhost:3000/duvidas/${duvida.id}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(duvida),
+                    });
+                    if (!response.ok) {
+                        throw new Error('Erro ao atualizar a dúvida no servidor');
+                    }
+                    console.log('Dúvida atualizada no servidor com sucesso');
+                } catch (error) {
+                    console.error('Erro ao enviar requisição para atualizar a dúvida:', error);
+                }
+            });
+
             cardTitle.textContent = duvida.titulo;
             cardText.textContent = duvida.texto;
             questionCards.appendChild(clone);

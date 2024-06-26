@@ -154,6 +154,28 @@ main{
     text-align: justify;
 }
 
+#ajudou{
+    width: fit-content;
+    display: inline-block;
+    border: 2px solid darkolivegreen;
+    background-color:rgb(132, 165, 75);
+    color: white;
+    margin-top: 10px;
+}
+
+#ajudou:hover, #NaoAjudou:hover{
+    transform: scale(1.02);
+}
+
+#NaoAjudou{
+    width: fit-content;
+    display: inline-block;
+    border: 2px solid darkred;
+    background-color:firebrick;
+    color: white;
+    margin-top: 10px;
+}
+
 
 /* MOBILE */
 
