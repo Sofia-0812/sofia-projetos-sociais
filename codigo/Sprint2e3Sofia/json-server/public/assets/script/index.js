@@ -27,6 +27,14 @@ function maisInformacoes() {
     </div>
     <button class="btn" id="btnLM">Ler Menos</button>
   `;
+
+  const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+  if(usuarioLogado){
+    document.getElementById('banner').style.display = "none";
+  }
+  else{
+    document.getElementById('banner').style.display = "block";
+  }
   
   document.getElementById('btnLM').addEventListener('click', menosInformacoes);
 }

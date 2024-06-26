@@ -1,4 +1,30 @@
 {
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João Victor",
+      "email": "usuario1@email.com",
+      "senha": "senha1"
+    },
+    {
+      "id": "2",
+      "nome": "fdavsdvsd",
+      "email": "usuario2@email.com",
+      "senha": "senha2"
+    },
+    {
+      "id": "8afe",
+      "nome": "joao",
+      "email": "xxx@gmail.com",
+      "senha": "senha3"
+    },
+    {
+      "id": "4b26",
+      "nome": "Sofia Grossi",
+      "email": "sofiagrossi.gvs@gmail.com",
+      "senha": "1234"
+    }
+  ],
   "duvidas": [
     {
       "id": "1",
@@ -52,21 +78,21 @@
   ],
   "contsugerido": [
     {
-      "id": 1,
+      "id": "1",
       "urlImagem": "assets/imagens/v1.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "urlImagem": "assets/imagens/v2.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "urlImagem": "assets/imagens/v3.jpg"
     }
   ],
   "projetos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Projeto de Inclusão Digital",
       "anfitrião": "PUC Minas",
       "imagem": "/assets/imagens/inclusaoDigital.jpg",
@@ -121,7 +147,7 @@
       "resumo": "Projeto para promover inclusão digital entre crianças de comunidades carentes, fornecendo acesso a tecnologia e ensino de habilidades digitais."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Projeto Verde",
       "anfitrião": "Universidade Federal de Minas Gerais",
       "imagem": "/assets/imagens/sustentabilidade.jpeg",
@@ -176,7 +202,7 @@
       "resumo": "Iniciativa para promover sustentabilidade e educação ambiental em escolas públicas, incentivando práticas ecológicas e conscientização ambiental."
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Cuidando dos Animais",
       "anfitrião": "ONG Amigo Bicho",
       "imagem": "/assets/imagens/unnamed.jpg",
@@ -231,7 +257,7 @@
       "resumo": "Projeto focado no resgate e cuidado de animais de rua, promovendo adoções responsáveis e conscientização sobre bem-estar animal."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Apoio aos Idosos",
       "anfitrião": "Lar São Vicente",
       "imagem": "/assets/imagens/asilo.jpeg",
@@ -290,7 +316,7 @@
       "resumo": "Iniciativa para melhorar a qualidade de vida dos idosos em asilos e lares de repouso, oferecendo atividades e suporte."
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Educação para Todos",
       "anfitrião": "Instituto Educar",
       "imagem": "/assets/imagens/escola.jpg",
@@ -353,7 +379,7 @@
       "resumo": "Projeto dedicado a oferecer oportunidades educacionais para crianças e jovens de baixa renda, promovendo inclusão social e desenvolvimento."
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Saúde e Bem-Estar",
       "anfitrião": "Hospital Santa Casa",
       "imagem": "/assets/imagens/hospital.jpg",
@@ -408,7 +434,7 @@
       "resumo": "Programa voltado para a promoção da saúde e bem-estar de pacientes hospitalizados e suas famílias, com foco em cuidados integrados."
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Alimentação Solidária",
       "anfitrião": "Banco de Alimentos",
       "imagem": "/assets/imagens/comida.jpg",
@@ -473,7 +499,7 @@
   ],
   "doacoes": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Campanha de Arrecadação de Alimentos",
       "anfitrião": "Cruz Vermelha",
       "imagem": "/assets/imagens/arrecadacaoAlimentos.jpg",
@@ -536,7 +562,7 @@
       "resumo": "Campanha para arrecadação de alimentos para famílias carentes e idosos necessitados."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Doação de Materiais Escolares",
       "anfitrião": "Projeto Ler e Escrever",
       "imagem": "/assets/imagens/materiaisEscolares.jpg",
@@ -603,7 +629,7 @@
       "resumo": "Campanha para fornecer materiais escolares a crianças de famílias carentes, promovendo o acesso à educação."
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Doação de Roupas e Cobertores",
       "anfitrião": "Fundação Amor ao Próximo",
       "imagem": "/assets/imagens/roupasCobertores.jpg",
@@ -670,7 +696,7 @@
       "resumo": "Coleta de roupas e cobertores para ajudar famílias e indivíduos em situação de rua durante o inverno."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Doação de Livros",
       "anfitrião": "Biblioteca Comunitária",
       "imagem": "/assets/imagens/doacaoLivros.jpg",
@@ -741,7 +767,7 @@
       "resumo": "Coleta de livros para montar bibliotecas em hospitais e escolas públicas, incentivando a leitura."
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Coleta de Brinquedos",
       "anfitrião": "Associação Alegria de Viver",
       "imagem": "/assets/imagens/coletaBrinquedos.jpg",
@@ -808,7 +834,7 @@
       "resumo": "Coleta de brinquedos novos e usados para distribuir a crianças em hospitais e orfanatos."
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Doação de Equipamentos de Proteção Individual (EPIs)",
       "anfitrião": "Hospital da Esperança",
       "imagem": "/assets/imagens/doacaoEPIs.jpg",
@@ -879,7 +905,7 @@
       "resumo": "Arrecadação de EPIs para proteger profissionais de saúde e pacientes durante a pandemia."
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Coleta de Produtos de Higiene Pessoal",
       "anfitrião": "ONG Saúde e Vida",
       "imagem": "/assets/imagens/produtosHigiene.jpg",
@@ -954,7 +980,7 @@
       "resumo": "Coleta de produtos de higiene pessoal para distribuição a famílias carentes e indivíduos em situação de rua."
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "Campanha de Proteção Animal",
       "anfitrião": "Associação Protetora dos Animais",
       "imagem": "/assets/imagens/protecaoAnimal.jpg",
@@ -1023,7 +1049,7 @@
   ],
   "cfinanceira": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Campanha de Inclusão Digital para Idosos",
       "anfitrião": "Instituto Bem Viver",
       "imagem": "/assets/imagens/inclusaoDigitalIdosos.jpg",
@@ -1043,7 +1069,7 @@
       "resumo": "Campanha para financiar cursos de inclusão digital para idosos, promovendo acesso à tecnologia e ao conhecimento."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Campanha de Educação Inclusiva",
       "anfitrião": "Fundação Educa Brasil",
       "imagem": "/assets/imagens/educacaoInclusiva.jpg",
@@ -1063,7 +1089,7 @@
       "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos."
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Campanha de Apoio às Crianças em Situação de Risco",
       "anfitrião": "ONG Criança Feliz",
       "imagem": "/assets/imagens/apoioCriancas.jpg",
@@ -1087,7 +1113,7 @@
       "resumo": "Campanha para arrecadar fundos destinados a programas de proteção e educação para crianças em situação de risco."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Campanha de Assistência a Famílias Carentes",
       "anfitrião": "Projeto Solidariedade",
       "imagem": "/assets/imagens/assistenciaFamilias.jpg",
@@ -1103,7 +1129,7 @@
       "resumo": "Arrecadação de dinheiro para fornecer alimentos, roupas e suporte financeiro a famílias em situação de vulnerabilidade."
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Campanha de Preservação Ambiental",
       "anfitrião": "Verde Esperança",
       "imagem": "/assets/imagens/preservacaoAmbiental.jpg",
@@ -1123,7 +1149,7 @@
       "resumo": "Campanha para financiar projetos de preservação ambiental e recuperação de áreas degradadas."
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Campanha de Apoio aos Hospitais Públicos",
       "anfitrião": "Fundação Saúde para Todos",
       "imagem": "/assets/imagens/apoioHospitais.jpg",
@@ -1143,7 +1169,7 @@
       "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes."
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Campanha de Proteção Animal",
       "anfitrião": "Associação Protetora dos Animais",
       "imagem": "/assets/imagens/protecaoAnimal.jpg",
