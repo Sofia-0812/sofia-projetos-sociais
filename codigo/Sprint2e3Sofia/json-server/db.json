@@ -1,4 +1,41 @@
 {
+    "duvidas":[
+        {
+            "id":1,
+            "titulo":"Como achar projetos que se alinham com minhas disponibilidades?",
+            "texto":"Clique nos botões do menu de \"Vagas de voluntariado\", \"Doação de Material\" ou \"Contribuição Financeira\" (dependendo do tipo de projeto procurado) e utilize a barra de busca e os filtros para selecionar apenas os projetos que se encaixam em suas disponibilidades."
+        },
+        {
+            "id":2,
+            "titulo":"Como visualizar meus projetos favoritos?",
+            "texto":"Para visualizar seus favoritos, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Favoritos\"."
+        },
+        {
+            "id":3,
+            "titulo":"Como visualizar os projetos em que participei?",
+            "texto":"Para visualizar os projetos em que você participou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\"."
+        },
+        {
+            "id":4,
+            "titulo":"Como visualizar os projetos que publiquei como Anfitrião?",
+            "texto":"Para visualizar os projetos que você publicou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\"."
+        },
+        {
+            "id":5,
+            "titulo":"Como avaliar um projeto em que participei?",
+            "texto":"Para avaliar os projetos em que você participou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\". Na tela de \"Meus Projetos\" você conseguirá avaliar os anfitriões provedores dos projetos em que participou. "
+        },
+        {
+            "id":6,
+            "titulo":"Como realizar uma contribuição financeira?",
+            "texto":"Para fazer uma doação de dinheiro, você deve clicar no botão do menu de \"Contribuição Financeira\", depois nessa tela você deve clicar no card do projeto para o qual deseja contribuir. Na página específica do projeto terão as informações bancárias do anfitrião. Não é possível fazer a transação financeira diretamente do nosso site, portanto você deve usar as informações fornecidas para fazer a transação por conta própria."
+        },
+        {
+            "id":7,
+            "titulo":"Como voltar para a página inicial?",
+            "texto":"Para voltar à tela inicial, clique na logo localizada no centro do menu."
+        }
+    ],
     "contsugerido": [
         {
             "id": 1,
