@@ -1,4 +1,18 @@
 {
+  "anfitrioes": [
+    {
+      "id": "1",
+      "nome": "Sofia Grossi",
+      "email": "sofiagrossi.gvs@gmail.com",
+      "senha": "1234"
+    },
+    {
+      "id": "c69b",
+      "nome": "Filipi",
+      "email": "filipi.pereira@gmail.com",
+      "senha": "4321"
+    }
+  ],
   "usuarios": [
     {
       "id": "1",
@@ -17,12 +31,6 @@
       "nome": "joao",
       "email": "xxx@gmail.com",
       "senha": "senha3"
-    },
-    {
-      "id": "4b26",
-      "nome": "Sofia Grossi",
-      "email": "sofiagrossi.gvs@gmail.com",
-      "senha": "1234"
     }
   ],
   "duvidas": [
@@ -90,24 +98,23 @@
       "urlImagem": "assets/imagens/v3.jpg"
     }
   ],
-  "projetos": [
+  "volunt": [
     {
       "id": "1",
       "nome": "Projeto de Inclusão Digital",
-      "anfitrião": "PUC Minas",
+      "horario": "9:30 - 12:00",
+      "localizacao": "Rua Padre Pedro Pinto 1700, Bairro Venda Nova",
+      "anfitriao": "PUC Minas",
       "imagem": "/assets/imagens/inclusaoDigital.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -115,7 +122,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 7,
             "nome": "Região Venda Nova"
           }
         ]
@@ -123,15 +129,12 @@
       "dia": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -139,7 +142,6 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           }
         ]
@@ -149,16 +151,16 @@
     {
       "id": "2",
       "nome": "Projeto Verde",
-      "anfitrião": "Universidade Federal de Minas Gerais",
+      "horario": "8:00 - 10:00 e 18:00 - 19:30",
+      "localizacao": "Avenida Otacílio Negrão de Lima 5000, Bairro São Luiz",
+      "anfitriao": "Universidade Federal de Minas Gerais",
       "imagem": "/assets/imagens/sustentabilidade.jpeg",
       "temas": {
         "opcoes": [
           {
-            "id": 6,
             "nome": "Meio Ambiente"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -166,7 +168,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 8,
             "nome": "Região Pampulha"
           }
         ]
@@ -174,15 +175,12 @@
       "dia": {
         "opcoes": [
           {
-            "id": 3,
             "nome": "Quarta-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           }
         ]
@@ -190,11 +188,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 3,
             "nome": "Noite"
           }
         ]
@@ -204,12 +200,13 @@
     {
       "id": "3",
       "nome": "Cuidando dos Animais",
-      "anfitrião": "ONG Amigo Bicho",
+      "horario": "16:00 - 20:00",
+      "localizacao": "Avenida Silva Lobo 1000, Bairro Grajaú",
+      "anfitriao": "ONG Amigo Bicho",
       "imagem": "/assets/imagens/unnamed.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Animais"
           }
         ]
@@ -217,7 +214,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 7,
             "nome": "Região Oeste"
           }
         ]
@@ -225,19 +221,15 @@
       "dia": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Segunda-Feira"
+             "nome": "Segunda-Feira"
           },
           {
-            "id": 3,
             "nome": "Quarta-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           }
         ]
@@ -245,11 +237,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Tarde"
           },
           {
-            "id": 3,
             "nome": "Noite"
           }
         ]
@@ -259,16 +249,16 @@
     {
       "id": "4",
       "nome": "Apoio aos Idosos",
-      "anfitrião": "Lar São Vicente",
+      "horario": "9:00 - 15:00",
+      "localizacao": "Rua Cristiano Machado 4000, Bairro Planalto",
+      "anfitriao": "Lar São Vicente",
       "imagem": "/assets/imagens/asilo.jpeg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -276,7 +266,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 6,
             "nome": "Região Norte"
           }
         ]
@@ -284,19 +273,15 @@
       "dia": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Segunda-Feira"
           },
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -304,11 +289,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -318,20 +301,19 @@
     {
       "id": "5",
       "nome": "Educação para Todos",
-      "anfitrião": "Instituto Educar",
+      "horario": "13:00 - 20:00",
+      "localizacao": "Avenida Pedro II 3000, Bairro Caiçara-Adelaide",
+      "anfitriao": "Instituto Educar",
       "imagem": "/assets/imagens/escola.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -339,7 +321,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 5,
             "nome": "Região Noroeste"
           }
         ]
@@ -347,19 +328,15 @@
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -367,11 +344,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Tarde"
           },
           {
-            "id": 3,
             "nome": "Noite"
           }
         ]
@@ -381,16 +356,16 @@
     {
       "id": "6",
       "nome": "Saúde e Bem-Estar",
-      "anfitrião": "Hospital Santa Casa",
+      "horario": "7:30 - 11:30",
+      "localizacao": "Avenida Sinfrônio Brochado 1200, Bairro Barreiro",
+      "anfitriao": "Hospital Santa Casa",
       "imagem": "/assets/imagens/hospital.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 3,
             "nome": "Hospitais"
           }
         ]
@@ -398,7 +373,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Região Barreiro"
           }
         ]
@@ -406,19 +380,15 @@
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -426,7 +396,6 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           }
         ]
@@ -436,12 +405,13 @@
     {
       "id": "7",
       "nome": "Alimentação Solidária",
-      "anfitrião": "Banco de Alimentos",
+      "horario": "12:00 - 15:00",
+      "localizacao": "Rua Niquelina 1700, Bairro Santa Efigênia/Avenida do Contorno 6000, Bairro Funcionários/Avenida Cristiano Machado 6500, Bairro União",
+      "anfitriao": "Banco de Alimentos",
       "imagem": "/assets/imagens/comida.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -449,15 +419,12 @@
       "local": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Região Centro-Sul"
           },
           {
-            "id": 3,
             "nome": "Região Leste"
           },
           {
-            "id": 4,
             "nome": "Região Nordeste"
           }
         ]
@@ -465,19 +432,15 @@
       "dia": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Segunda-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -485,12 +448,7 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Manhã"
-          },
-          {
-            "id": 3,
-            "nome": "Noite"
+            "nome": "Tarde"
           }
         ]
       },
@@ -501,20 +459,19 @@
     {
       "id": "1",
       "nome": "Campanha de Arrecadação de Alimentos",
-      "anfitrião": "Cruz Vermelha",
+      "horario": "14:00 - 17:00",
+      "localizacao": "Rua Caratinga 451, Bairro Anchieta",
+      "anfitriao": "Cruz Vermelha",
       "imagem": "/assets/imagens/arrecadacaoAlimentos.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -522,31 +479,19 @@
       "local": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Região Centro-Sul"
-          },
-          {
-            "id": 4,
-            "nome": "Região Nordeste"
-          },
-          {
-            "id": 8,
-            "nome": "Região Pampulha"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Segunda-Feira"
           },
           {
-            "id": 3,
             "nome": "Quarta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           }
         ]
@@ -554,7 +499,6 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -564,16 +508,16 @@
     {
       "id": "2",
       "nome": "Doação de Materiais Escolares",
-      "anfitrião": "Projeto Ler e Escrever",
+      "horario": "9:30 - 17:00",
+      "localizacao": "Rua Érico Veríssimo 520, Bairro Rio Branco",
+      "anfitriao": "Projeto Ler e Escrever",
       "imagem": "/assets/imagens/materiaisEscolares.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -581,19 +525,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Região Barreiro"
-          },
-          {
-            "id": 2,
-            "nome": "Região Centro-Sul"
-          },
-          {
-            "id": 4,
-            "nome": "Região Nordeste"
-          },
-          {
-            "id": 9,
             "nome": "Região Venda Nova"
           }
         ]
@@ -601,15 +532,12 @@
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           }
         ]
@@ -617,11 +545,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -631,20 +557,19 @@
     {
       "id": "3",
       "nome": "Doação de Roupas e Cobertores",
-      "anfitrião": "Fundação Amor ao Próximo",
+      "horario": "10:00 - 15:30",
+      "localizacao": "Avenida Antônio Carlos 6627, Bairro Pampulha",
+      "anfitriao": "Fundação Amor ao Próximo",
       "imagem": "/assets/imagens/roupasCobertores.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -652,31 +577,19 @@
       "local": {
         "opcoes": [
           {
-            "id": 3,
-            "nome": "Região Leste"
-          },
-          {
-            "id": 6,
-            "nome": "Região Norte"
-          },
-          {
-            "id": 9,
-            "nome": "Região Venda Nova"
+            "nome": "Região Pampulha"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           },
           {
-            "id": 7,
             "nome": "Domingo"
           }
         ]
@@ -684,11 +597,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -698,24 +609,22 @@
     {
       "id": "4",
       "nome": "Doação de Livros",
-      "anfitrião": "Biblioteca Comunitária",
+      "horario": "9:30 - 17:00",
+      "localizacao": "Avenida Amazonas 7675, Bairro Nova Cintra",
+      "anfitriao": "Biblioteca Comunitária",
       "imagem": "/assets/imagens/doacaoLivros.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 3,
             "nome": "Hospitais"
           },
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -723,15 +632,6 @@
       "local": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Região Barreiro"
-          },
-          {
-            "id": 6,
-            "nome": "Região Norte"
-          },
-          {
-            "id": 7,
             "nome": "Região Oeste"
           }
         ]
@@ -739,15 +639,12 @@
       "dia": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Segunda-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           }
         ]
@@ -755,11 +652,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -769,20 +664,19 @@
     {
       "id": "5",
       "nome": "Coleta de Brinquedos",
-      "anfitrião": "Associação Alegria de Viver",
+      "horario": "19:00 - 22:00",
+      "localizacao": "Avenida Antônio Carlos 7450, Bairro São Francisco",
+      "anfitriao": "Associação Alegria de Viver",
       "imagem": "/assets/imagens/coletaBrinquedos.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 3,
             "nome": "Hospitais"
           },
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -790,31 +684,19 @@
       "local": {
         "opcoes": [
           {
-            "id": 2,
-            "nome": "Região Centro-Sul"
-          },
-          {
-            "id": 3,
-            "nome": "Região Leste"
-          },
-          {
-            "id": 4,
-            "nome": "Região Nordeste"
+            "nome": "Região Norte"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           }
         ]
@@ -822,12 +704,7 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Manhã"
-          },
-          {
-            "id": 2,
-            "nome": "Tarde"
+            "nome": "Noite"
           }
         ]
       },
@@ -836,20 +713,19 @@
     {
       "id": "6",
       "nome": "Doação de Equipamentos de Proteção Individual (EPIs)",
-      "anfitrião": "Hospital da Esperança",
+      "horario": "06:00 - 12:00",
+      "localizacao": "Avenida Dom Pedro II, 1678 - Bairro Carlos Prates",
+      "anfitriao": "Hospital da Esperança",
       "imagem": "/assets/imagens/doacaoEPIs.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 3,
             "nome": "Hospitais"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -857,35 +733,19 @@
       "local": {
         "opcoes": [
           {
-            "id": 2,
-            "nome": "Região Centro-Sul"
-          },
-          {
-            "id": 3,
-            "nome": "Região Leste"
-          },
-          {
-            "id": 7,
-            "nome": "Região Oeste"
-          },
-          {
-            "id": 9,
-            "nome": "Região Venda Nova"
+            "nome": "Região Noroeste"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           }
         ]
@@ -893,12 +753,7 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
-          },
-          {
-            "id": 2,
-            "nome": "Tarde"
           }
         ]
       },
@@ -907,24 +762,22 @@
     {
       "id": "7",
       "nome": "Coleta de Produtos de Higiene Pessoal",
-      "anfitrião": "ONG Saúde e Vida",
+      "horario": "13:00 - 18:00",
+      "localizacao": "Avenida Sinfrônio Brochado, 2400 - Bairro Barreiro",
+      "anfitriao": "ONG Saúde e Vida",
       "imagem": "/assets/imagens/produtosHigiene.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 3,
             "nome": "Hospitais"
           },
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -932,35 +785,19 @@
       "local": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Região Barreiro"
-          },
-          {
-            "id": 4,
-            "nome": "Região Nordeste"
-          },
-          {
-            "id": 7,
-            "nome": "Região Oeste"
-          },
-          {
-            "id": 9,
-            "nome": "Região Venda Nova"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Terça-Feira"
           },
           {
-            "id": 4,
             "nome": "Quinta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           }
         ]
@@ -968,11 +805,6 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
-            "nome": "Manhã"
-          },
-          {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -982,16 +814,16 @@
     {
       "id": "8",
       "nome": "Campanha de Proteção Animal",
-      "anfitrião": "Associação Protetora dos Animais",
+      "horario": "10:15 - 16:30",
+      "localizacao": "Avenida Cristiano Machado, 4000 - Bairro União/Avenida Bernardo Monteiro, 1567 - Bairro Santa Efigênia",
+      "anfitriao": "Associação Protetora dos Animais",
       "imagem": "/assets/imagens/protecaoAnimal.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Animais"
           },
           {
-            "id": 6,
             "nome": "Meio Ambiente"
           }
         ]
@@ -999,35 +831,25 @@
       "local": {
         "opcoes": [
           {
-            "id": 2,
-            "nome": "Região Centro-Sul"
-          },
-          {
-            "id": 4,
             "nome": "Região Nordeste"
           },
           {
-            "id": 8,
-            "nome": "Região Pampulha"
+            "nome": "Região Leste"
           }
         ]
       },
       "dia": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Segunda-Feira"
           },
           {
-            "id": 3,
             "nome": "Quarta-Feira"
           },
           {
-            "id": 5,
             "nome": "Sexta-Feira"
           },
           {
-            "id": 6,
             "nome": "Sábado"
           }
         ]
@@ -1035,11 +857,9 @@
       "periodo": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Manhã"
           },
           {
-            "id": 2,
             "nome": "Tarde"
           }
         ]
@@ -1051,16 +871,14 @@
     {
       "id": "1",
       "nome": "Campanha de Inclusão Digital para Idosos",
-      "anfitrião": "Instituto Bem Viver",
+      "anfitriao": "Instituto Bem Viver",
       "imagem": "/assets/imagens/inclusaoDigitalIdosos.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 1,
             "nome": "Idosos"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -1071,16 +889,14 @@
     {
       "id": "2",
       "nome": "Campanha de Educação Inclusiva",
-      "anfitrião": "Fundação Educa Brasil",
+      "anfitriao": "Fundação Educa Brasil",
       "imagem": "/assets/imagens/educacaoInclusiva.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -1091,20 +907,17 @@
     {
       "id": "3",
       "nome": "Campanha de Apoio às Crianças em Situação de Risco",
-      "anfitrião": "ONG Criança Feliz",
+      "anfitriao": "ONG Criança Feliz",
       "imagem": "/assets/imagens/apoioCriancas.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 4,
             "nome": "Crianças"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "id": 7,
             "nome": "Educação"
           }
         ]
@@ -1115,12 +928,11 @@
     {
       "id": "4",
       "nome": "Campanha de Assistência a Famílias Carentes",
-      "anfitrião": "Projeto Solidariedade",
+      "anfitriao": "Projeto Solidariedade",
       "imagem": "/assets/imagens/assistenciaFamilias.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -1131,16 +943,14 @@
     {
       "id": "5",
       "nome": "Campanha de Preservação Ambiental",
-      "anfitrião": "Verde Esperança",
+      "anfitriao": "Verde Esperança",
       "imagem": "/assets/imagens/preservacaoAmbiental.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Animais"
           },
           {
-            "id": 6,
             "nome": "Meio Ambiente"
           }
         ]
@@ -1151,16 +961,14 @@
     {
       "id": "6",
       "nome": "Campanha de Apoio aos Hospitais Públicos",
-      "anfitrião": "Fundação Saúde para Todos",
+      "anfitriao": "Fundação Saúde para Todos",
       "imagem": "/assets/imagens/apoioHospitais.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 3,
             "nome": "Hospitais"
           },
           {
-            "id": 5,
             "nome": "Pessoas e famílias necessitadas"
           }
         ]
@@ -1171,12 +979,11 @@
     {
       "id": "7",
       "nome": "Campanha de Proteção Animal",
-      "anfitrião": "Associação Protetora dos Animais",
+      "anfitriao": "Associação Protetora dos Animais",
       "imagem": "/assets/imagens/protecaoAnimal.jpg",
       "temas": {
         "opcoes": [
           {
-            "id": 2,
             "nome": "Animais"
           }
         ]

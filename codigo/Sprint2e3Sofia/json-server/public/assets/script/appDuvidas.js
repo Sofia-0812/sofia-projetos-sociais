@@ -94,7 +94,9 @@ async function preencherTemplate() {
             <div class="btn"><a href="registro.html">Cadastre-se</a></div>`;
 
             const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
-            if(usuarioLogado){
+            const anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
+
+            if(usuarioLogado || anfitriaoLogado){
                document.getElementById('banner').style.display = "none";
             }
             else{
