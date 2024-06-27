@@ -35,7 +35,7 @@ if (usuarioLogado) {
         <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
         <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="#">Favoritos</a></li>
         <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="#">Meus Projetos</a></li>
-        <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logout">Sair</a></li>
+        <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logoutMobile">Sair</a></li>
     </ul>
     <div id="secoesMenu">
         <input type="checkbox" id="menuTuggle">
@@ -71,4 +71,5 @@ function logout() {
     window.location.href = 'login.html'; // Redireciona para a página de login
 }
 document.getElementById('logout').addEventListener('click', logout);
+document.getElementById('logoutMobile').addEventListener('click', logout);
 }
