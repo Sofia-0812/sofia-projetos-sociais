@@ -19,24 +19,24 @@ document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="a
     <li class="bar"></li>
 </ul>
 </div>
-</nav>`
+</nav>`;
 
 const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 
-if(usuarioLogado){
+if (usuarioLogado) {
     document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="assets/css/menuLogado.css">
     <nav class="header">
     <a href="index.html" id="logoMobile"><img id="logo" src="assets/imagens/Conexão Solidária Logo-3.png" width="200px"></a>
     <input type="checkbox" id="perfilMobile" style="display: none;">
-                <label for="perfilMobile" class="perfilMobile-icon">
-                    <img id="fotoDePerfil" src="assets/imagens/perfil.png" width="100%">
-                </label>
-                <ul id="menuPerfil">
-                    <li class="mpItem" id="mp1"><a href="#">Configurações</a></li>
-                    <li class="mpItem" id="mp2"><a href="#">Favoritos</li>
-                    <li class="mpItem" id="mp3"><a href="#">Meus Projetos</a></li>
-                    <li class="mpItem" id="mp4"><a href="#">Sair</a></li>
-                </ul>
+    <label for="perfilMobile" class="perfilMobile-icon">
+        <img id="fotoDePerfil" src="assets/imagens/circle-user-regular.svg" width="30px">
+    </label>
+    <ul id="menuPerfil">
+        <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
+        <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="#">Favoritos</a></li>
+        <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="#">Meus Projetos</a></li>
+        <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logout">Sair</a></li>
+    </ul>
     <div id="secoesMenu">
         <input type="checkbox" id="menuTuggle">
         <label for="menuTuggle" class="menu-icon">
@@ -49,13 +49,13 @@ if(usuarioLogado){
             <li class="mItem" id="m9">
                 <input type="checkbox" id="perfil" style="display: none;">
                 <label for="perfil" class="perfil-icon">
-                    <img src="assets/imagens/perfil.png" width="40px">
+                    <img src="assets/imagens/circle-user-regular.svg" width="30px">
                 </label>
                 <ul id="menuPerfil">
-                    <li class="mpItem" id="mp1"><a href="#">Configurações</a></li>
-                    <li class="mpItem" id="mp2"><a href="#">Favoritos</li>
-                    <li class="mpItem" id="mp3"><a href="#">Meus Projetos</a></li>
-                    <li class="mpItem" id="mp4"><a href="#">Sair</a></li>
+                    <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
+                    <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="#">Favoritos</a></li>
+                    <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="#">Meus Projetos</a></li>
+                    <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logout">Sair</a></li>
                 </ul>
             </li>
             <li class="mItem" id="m6"><a href="voluntariado.html">Vagas de Voluntariado</a></li>
@@ -64,5 +64,11 @@ if(usuarioLogado){
             <li class="bar"></li>
         </ul>
     </div>
-</nav>`
+</nav>`;
+
+function logout() {
+    localStorage.removeItem('usuarioLogado'); // Remove os dados do usuário do localStorage
+    window.location.href = 'login.html'; // Redireciona para a página de login
+}
+document.getElementById('logout').addEventListener('click', logout);
 }

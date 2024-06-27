@@ -90,6 +90,16 @@ async function preencherTemplate() {
                 }
             });
 
+            document.getElementById('banner').innerHTML = `<p>Ainda não se cadastrou?</p>
+            <div class="btn"><a href="registro.html">Cadastre-se</a></div>`;
+
+            const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+            if(usuarioLogado){
+               document.getElementById('banner').style.display = "none";
+            }
+            else{
+               document.getElementById('banner').style.display = "block";
+            }
             cardTitle.textContent = duvida.titulo;
             cardText.textContent = duvida.texto;
             questionCards.appendChild(clone);

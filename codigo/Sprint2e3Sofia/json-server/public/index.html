@@ -12,9 +12,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/276a778de7.js" crossorigin="anonymous"></script>
+    <style>
+      #pagina {
+        display: none; /* Esconde a página até que esteja carregada */
+      }
+    </style>
 </head>
 
-<body>
+
+<body id="pagina">
 
     <header id="cabecalho"></header>
 
@@ -50,7 +56,12 @@
     <script src="assets/script/geral.js"></script>
 
     <script src="assets/script/index.js"></script>
-    
+
+    <script>
+      window.addEventListener('load', function() {
+        document.getElementById('pagina').style.display = 'grid';
+     });
+    </script>
 </body>
 
 </html>

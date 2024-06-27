@@ -1,5 +1,5 @@
 // Usar as informações do db.json para montar o carousel de conteúdos sugeridos
-fetch("http://localhost:3000/contsugerido")
+fetch("http://localhost:3000/imagensApresentacao")
  .then(res => res.json())
  .then(contData => {
   let slides = `<div class="carousel-item active"><img src=${contData[0].urlImagem} class="d-block w-100" alt="slide1"></div>`;

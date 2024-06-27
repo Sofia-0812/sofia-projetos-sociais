@@ -42,6 +42,38 @@ main{
     margin-top: 10px;
 }
 
+#banner{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+    width: 100%;
+    justify-content: center;
+    padding: 40px 10px;
+    align-content: center;
+}
+
+#banner p{
+    display: inline;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+#banner div a{
+    text-decoration: none;
+    color: black;
+}
+
+#banner div{
+    background-color: rgba(134, 162, 170, 0.959);
+    padding: 6px 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    display: inline-flex;
+}
+
 @media screen and (max-width: 1195px){
 
     main{
@@ -54,4 +86,16 @@ main{
         margin-top: 10px;
     }
 
+}
+
+@media screen and (max-width: 730px){
+    
+    #banner p{
+        display: none;
+    }
+
+    #banner{
+        display: flex;
+        justify-content: center;
+    }
 }

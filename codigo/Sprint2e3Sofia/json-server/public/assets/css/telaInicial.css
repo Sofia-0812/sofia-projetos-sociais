@@ -60,7 +60,7 @@ main{
 }
 
 #banner div{
-    background-color: rgb(156, 173, 191);
+    background-color: rgba(134, 162, 170, 0.959);
     padding: 6px 40px;
     border-radius: 20px;
     border: 2px solid black;
