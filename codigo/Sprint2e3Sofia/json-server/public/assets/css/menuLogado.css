@@ -96,6 +96,13 @@ header a{
     padding: 10px 20px;
 }
 
+#pNome{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: slategrey;
+}
+
 .mpItem:hover{
     background-color: rgb(193, 192, 192);
 }
