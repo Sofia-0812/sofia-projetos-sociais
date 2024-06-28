@@ -1,12 +1,19 @@
-let parametros = new URLSearchParams(location.search);
+let parametros = new URLSearchParams(window.location.search);
 let id = parametros.get("id");
 console.log(id);
 
-fetch("http://localhost:3001/volunt")
+anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
+console.log(anfitriaoLogado);
+const informacoesAnfitriao = anfitriaoLogado.info;
+
+document.getElementById('infoAnfitriao').innerHTML = `<strong>Informações do Anfitrião: </strong>` +  informacoesAnfitriao;
+
+fetch(`http://localhost:3001/volunt?id=${id}`)
   .then(res => res.json())
   .then(data => {
-    let voluntariado = data.find(elem => elem.id == id);
-    if (voluntariado) {
+    if(data){
+      console.log(data); 
+      let voluntariado = data[0];
       document.getElementById('titulo').innerHTML = voluntariado.nome;
       document.getElementById('imagem').src = voluntariado.imagem;
       document.getElementById('anfitriao').innerHTML = `<strong>Anfitrião: </strong>` + voluntariado.anfitriao;
@@ -15,18 +22,6 @@ fetch("http://localhost:3001/volunt")
       document.getElementById('localizacao').innerHTML = `<strong>Localização: </strong>` + voluntariado.localizacao;
       document.getElementById('dias').innerHTML = `<strong>Dias:</strong> ${obterSelecionados(voluntariado.dia.opcoes)}`;
 
-      let nomeAnfitriao = voluntariado.anfitriao;
-      fetch("http://localhost:3001/anfitrioes")
-        .then(res => res.json())
-        .then(anfData => {
-          let anfitriao = anfData.find(elem => elem.nome == nomeAnfitriao);
-          if (anfitriao) {
-            document.getElementById('infoAnfitriao').innerHTML = `<strong>Informações Anfitrião: </strong>` + anfitriao.info;
-          } else {
-            console.error(`Anfitrião não encontrado para o voluntariado ${voluntariado.nome}`);
-          }
-        })
-        .catch(err => console.error('Erro ao buscar anfitriões:', err));
     } else {
       console.error(`Voluntariado com ID ${id} não encontrado.`);
     }

@@ -4,13 +4,27 @@
       "id": "1",
       "nome": "Sofia Grossi",
       "email": "sofiagrossi.gvs@gmail.com",
-      "senha": "1234"
+      "senha": "1234",
+      "id_meusProjetos": [
+        "1719594259745",
+        "1719594457434"
+      ]
     },
     {
       "id": "c69b",
       "nome": "Filipi",
       "email": "filipi.pereira@gmail.com",
       "senha": "4321"
+    },
+    {
+      "id": "26b9",
+      "nome": "Joao Maia",
+      "email": "joaomaia@gmail.com",
+      "senha": "789",
+      "info": "Estudante de Ciência da computacao da puc minas",
+      "id_meusProjetos": [
+        "1719607329549"
+      ]
     }
   ],
   "usuarios": [
@@ -455,18 +469,21 @@
       "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição."
     },
     {
-      "id": "1719592502548",
+      "id": "1719594259745",
       "temas": {
         "opcoes": [
           {
             "nome": "Animais"
+          },
+          {
+            "nome": "Ambientais"
           }
         ]
       },
-      "imagem": "/assets/imagens/1719592502540.jpg",
+      "imagem": "/assets/imagens/1719594259739.jpg",
       "anfitriao": "Sofia Grossi",
-      "nome": "Projeto Tamar ",
-      "resumo": "Salvar as tartarugas das péssimas condições na Lagoa da Pampulha.",
+      "nome": "Projeto Tamar",
+      "resumo": "Salvar as tartarugas das péssimas condições da Lagoa da Pampulha.",
       "localizacao": "Lagoa da Pampulha",
       "dia": {
         "opcoes": [
@@ -481,7 +498,7 @@
           }
         ]
       },
-      "horario": "10:30 - 17:00",
+      "horario": "10:00 - 15:00",
       "periodo": {
         "opcoes": [
           {
@@ -496,6 +513,43 @@
         "opcoes": [
           {
             "nome": "Região Pampulha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719607329549",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Animais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719607329529.jpg",
+      "anfitriao": "Joao Maia",
+      "nome": "Inclusao das tartarugas",
+      "resumo": "hewbfwyegufwe",
+      "localizacao": "wehjvhjewfjve",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Quarta-Feira"
+          }
+        ]
+      },
+      "horario": "ewfewfe",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Oeste"
           }
         ]
       }
@@ -911,6 +965,64 @@
         ]
       },
       "resumo": "Campanha para arrecadar ração, medicamentos, cobertores e outros itens essenciais para animais resgatados e em situação de abandono."
+    },
+    {
+      "id": "1719594457434",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Crianças"
+          },
+          {
+            "nome": "Educacionais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719594457424.png",
+      "anfitriao": "Sofia Grossi",
+      "nome": "Doação de Materiais Escolares Usados",
+      "resumo": "Doar materiais escolares",
+      "localizacao": "Busca em Casa",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
+          {
+            "nome": "Terça-Feira"
+          },
+          {
+            "nome": "Quarta-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          }
+        ]
+      },
+      "horario": "10:00 - 19:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Tarde"
+          },
+          {
+            "nome": "Noite"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Centro-Sul"
+          }
+        ]
+      }
     }
   ],
   "cfinanceira": [

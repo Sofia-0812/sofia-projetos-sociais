@@ -1,32 +1,36 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibXlrYWlseSIsImEiOiJjbHh3MWp5dmcwdTQzMmpvY24zdXM2YXVvIn0.CuUdpnMxp9hyR5DUy6AacQ';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic29maWFnLTA4MTIiLCJhIjoiY2x4ejB6MGlrMDZyOTJqcHgzMDJocW9tNSJ9.ZDUxfh3GAjKSfPdqcQDXCA';
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-74.5, 40],
-    zoom: 9
+// Criar o mapa
+const map = new mapboxgl.Map({
+    container: 'mapa',
+    style: 'mapbox://styles/mapbox/streets-v11', // Estilo do mapa
+    center: [-47.8825, -15.7942], // Coordenadas do centro inicial (exemplo)
+    zoom: 12 // Zoom inicial
 });
 
-var geocoder = new MapboxGeocoder({
-    accessToken: mapboxgl.accessToken,
-    mapboxgl: mapboxgl,
-    marker: {
-        color: 'orange'
-    }
-});
-
-document.querySelector('.map-overlay').appendChild(geocoder.onAdd(map));
-
+// Adicionar controles de navegação ao mapa
 map.addControl(new mapboxgl.NavigationControl());
-map.addControl(new mapboxgl.GeolocateControl({
-    positionOptions: {
-        enableHighAccuracy: true
-    },
-    trackUserLocation: true
-}));
-map.addControl(new mapboxgl.FullscreenControl());
-map.addControl(new mapboxgl.ScaleControl({
-    maxWidth: 80,
-    unit: 'metric'
-}));
 
+// Verificar se mapboxgl foi carregado corretamente antes de usar MapboxGeocoder
+if (typeof mapboxgl !== 'undefined') {
+    // Criar barra de busca
+    const geocoder = map.addControl(
+        new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+        })
+        );
+
+    // Adicionar barra de busca ao mapa
+    map.addControl(geocoder);
+
+    // Atualizar o mapa com base na localização selecionada na barra de busca
+    geocoder.on('result', function (e) {
+        map.flyTo({
+            center: e.result.center, // Centralizar no resultado da busca
+            zoom: 14 // Zoom ao qual o mapa deve ser ajustado
+        });
+    });
+} else {
+    console.error('Erro: mapboxgl não está definido. Verifique se os scripts do Mapbox foram carregados corretamente.');
+}

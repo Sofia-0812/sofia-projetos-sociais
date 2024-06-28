@@ -51,31 +51,6 @@ main{
     transform: scale(1.02);
 }
 
-.container {
-    display: block;
-    position: relative;
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 20px;
-}
-
-#map {
-    position: absolute; /* Posiciona o mapa absolutamente dentro da div container */
-    top: 0;
-    bottom: 0;
-    width: 100%;
-}
-.map-overlay {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-}
-.map-overlay input[type="text"] {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
-}
 
 @media screen and (max-width: 1195px){
 

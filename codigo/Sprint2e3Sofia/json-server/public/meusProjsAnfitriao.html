@@ -20,47 +20,41 @@
    </style>
 </head>
 
-<body>
+<body id="pagina">
 
     <header id="cabecalho"></header>
 
     <main>
         <h2 class="titulo">Projetos fornecidos por você:</h2>
-        <template id="card-template">
-            
-                <a href="#" id="link" class="card-link">
+        <section class="cards">
+
+            <div id="cards-container"></div>
+
+            <!-- Template do card -->
+            <template id="card-template">
                     <div class="card">
                         <h3 class="projtitulo"></h3>
                         <div class="conteudo">
-                            <img src="assets/imagens/Pessoa1.jpg" alt="Imagem do projeto" class="projimagem">
+                            <img src="" alt="Imagem do projeto" class="projimagem">
                             <div class="texto">
                                 <p class="anfitriao"></p>
                                 <p class="temas"></p>
-                                <p class="ibancarias"></p>
                                 <p class="resumo"></p>
                             </div>
                         </div>
                     </div>
-                </a>
-            
-        </template>
+            </template>
 
-        <section id="view" class="cards">
-            <div id="cards"></div>
-                
+        </section>
+        <div id="div-avaliacao">
+            <div id="avaliacao" class="bg-body-secondary">
+                <p>Sua avaliação média:</p>
+                <div id="icons-container">
 
-            <div id="div-avaliacao">
-                <div id="avaliacao" class="bg-body-secondary">
-                    <p>Sua avaliação média:</p>
-                    <div id="icons-container">
-
-                    </div>
                 </div>
             </div>
-        </section>
+        </div>
         
-
-
     </main>
 
     <footer>

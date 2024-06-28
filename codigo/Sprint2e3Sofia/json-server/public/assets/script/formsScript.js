@@ -4,9 +4,11 @@ function enviarDados(formId, rota) {
 
   // Obter o nome do anfitrião logado do localStorage
   const anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado')).nome;
+  const anfitriaoLogadoId = JSON.parse(localStorage.getItem('anfitriaoLogado')).id;
 
   // Adicionar o nome do anfitrião ao FormData
   formData.append('anfitriao', anfitriaoLogado);
+  formData.append('anfitriaoId', anfitriaoLogadoId);
 
 
   fetch(rota, {

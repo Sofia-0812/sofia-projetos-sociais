@@ -1,7 +1,8 @@
 const formLogin = document.querySelector('.formLogin');
-const nomeInput = formLogin.querySelector('input[type="text"]');
+const nomeInput = formLogin.querySelector('input[id="nome"]');
 const emailInput = formLogin.querySelector('input[type="email"]');
 const passwordInput = formLogin.querySelector('input[type="password"]');
+const sobreInput = formLogin.querySelector('input[id="sobreMim"]');
 
 formLogin.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -9,8 +10,9 @@ formLogin.addEventListener('submit', async (event) => {
     const nome = nomeInput.value;
     const email = emailInput.value;
     const password = passwordInput.value;
+    const info = sobreInput.value;
 
-    const novoUsuario = { nome, email, senha: password };
+    const novoUsuario = { nome, email, senha: password, info };
 
     try {
         const response = await fetch('http://localhost:3001/anfitrioes', {

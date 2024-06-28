@@ -9,7 +9,7 @@ document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="a
 </label>
 <ul class="menu">
     <li class="mItem" id="m1"><a href="duvidasFrequentes.html">Central de Ajuda</a></li>
-    <li class="mItem" id="m2"><a href="registroAnfitriao">Torne-se um Anfitrião</a></li>
+    <li class="mItem" id="m2"><a href="registroAnfitriao.html">Torne-se um Anfitrião</a></li>
     <li class="mItem" id="m3"><a href="index.html"><img src="assets/imagens/Conexão Solidária Logo-3.png" width="150px"></a></li>
     <li class="mItem" id="m4"><a href="login.html">Entrar</a></li>
     <li class="mItem" id="m5"><a href="registro.html">Cadastre-se</a></li>
@@ -22,7 +22,7 @@ document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="a
 </nav>`;
 
 const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
-const anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
+let anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
 
 if (usuarioLogado) {
     document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="assets/css/menuLogado.css">

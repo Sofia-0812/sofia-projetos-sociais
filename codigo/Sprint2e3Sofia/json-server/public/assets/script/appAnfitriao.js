@@ -1,4 +1,4 @@
-const anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
+anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
 const anfitriaoId = anfitriaoLogado.id; // ID do anfitrião para o qual você deseja obter os projetos
 
 // Função para obter os projetos associados a um anfitrião específico
@@ -9,13 +9,16 @@ async function obterProjetosDoAnfitriao(anfitriaoId) {
             throw new Error('Erro na resposta do servidor.');
         }
         const anfitriao = await response.json();
-        const projetosIds = anfitriao.id_projetos;
+        const projetosIds = anfitriao.id_meusProjetos;
 
         // Obter detalhes dos projetos
         const projetos = await Promise.all(projetosIds.map(async (projetoId) => {
-            const response = await fetch(`http://localhost:3001/projetos/${projetoId}`);
+            var response = await fetch(`http://localhost:3001/volunt/${projetoId}`);
             if (!response.ok) {
-                throw new Error('Erro na resposta do servidor.');
+                response = await fetch(`http://localhost:3001/doacoes/${projetoId}`);
+                if(!response.ok){
+                    response = await fetch(`http://localhost:3001/cfinanceira/${projetoId}`);
+                }
             }
             return await response.json();
         }));
@@ -67,33 +70,46 @@ async function preencherProjetosNoHTML() {
     try {
         const projetos = await obterProjetosDoAnfitriao(anfitriaoId);
 
-        // Selecionar o elemento onde os projetos serão inseridos
-        const view1 = document.getElementById('cards');
-
-        // Limpar o conteúdo atual, se houver
-        view1.innerHTML = '';
+        const cardsContainer = document.getElementById("cards-container");
 
         // Para cada projeto, criar e adicionar um elemento HTML com suas informações
-        projetos.forEach(projeto => {
-            const cardTemplate = document.getElementById('card-template');
-            if (!cardTemplate) {
-                console.error('Elemento de template de card não encontrado.');
-                return;
-            }
-            const cardClone = cardTemplate.content.cloneNode(true);
-
-            cardClone.querySelector('.anfitriao').textContent = projeto.nome_anfitriao;
-            cardClone.querySelector('.projtitulo').textContent = projeto.nome_projeto;
-            cardClone.querySelector('.temas').textContent = projeto.tema;
-            cardClone.querySelector('.resumo').textContent = projeto.resumo;
-
-            view1.appendChild(cardClone);
+        projetos.forEach((projeto) => {
+            const card = criarCard(projeto);
+            cardsContainer.appendChild(card);
         });
+
+        function criarCard(projeto) {
+            // Obter o template do card
+            const template = document.getElementById("card-template");
+        
+            // Criar uma cópia do template
+            const cardClone = document.importNode(template.content, true);
+        
+            // Preencher os elementos do card com os dados do projeto
+            cardClone.querySelector(".projtitulo").textContent = projeto.nome;
+            cardClone.querySelector(".projimagem").src = projeto.imagem;
+            cardClone.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitriao}`;
+            cardClone.querySelector(".temas").innerHTML = `<strong>Temas:</strong> ${obterSelecionados(projeto.temas.opcoes)}`;
+            cardClone.querySelector(".resumo").textContent = projeto.resumo;
+        
+            return cardClone;
+          }
+
+
     } catch (error) {
         console.error('Erro ao preencher projetos no HTML:', error);
     }
 }
 
+// Função para obter os selecionados de um projeto
+function obterSelecionados(opcoes) {
+    const Selecionados = opcoes
+      .map((opcao) => opcao.nome)
+      .join(", ");
+
+    return Selecionados;
+  }
+  
 // Chamar a função para preencher os projetos no carregamento da página
 window.addEventListener('load', () => {
     preencherProjetosNoHTML();
