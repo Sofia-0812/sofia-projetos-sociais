@@ -83,12 +83,13 @@ function processFormData(req, res, categoria) {
         }
         break;
       case 'doacoes':
-        formattedData.descricao = formData.descricao;
+        formattedData.nome = formData.nome || formData.nomeProjeto;
+        formattedData.resumo = formData.descricao;
         formattedData.localizacao = formData.localizacao;
         if (formData.dias) {
-          formattedData.diasDisponiveis = { opcoes: formData.dias.map(nome => ({ nome })) };
+          formattedData.dia = { opcoes: formData.dias.map(nome => ({ nome })) };
         }
-        formattedData.horarioEntrega = formData.horario;
+        formattedData.horario = formData.horario;
         if (formData.periodo) {
           formattedData.periodo = { opcoes: formData.periodo.map(nome => ({ nome })) };
         }
@@ -97,7 +98,8 @@ function processFormData(req, res, categoria) {
         }
         break;
       case 'cfinanceira':
-        formattedData.descricao = formData.descricao;
+        formattedData.nome = formData.nome || formData.nomeProjeto;
+        formattedData.resumo = formData.descricao;
         formattedData.ibancarias = formData.infoBancaria;
         break;
     }

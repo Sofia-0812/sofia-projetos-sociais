@@ -17,6 +17,7 @@ function enviarDados(formId, rota) {
     if (response.ok) {
       alert('Dados enviados com sucesso!');
       form.reset();
+      window.location.href = 'novoProjeto.html';
     } else {
       alert('Erro ao enviar dados. Por favor, tente novamente.');
     }

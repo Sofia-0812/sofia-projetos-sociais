@@ -453,6 +453,52 @@
         ]
       },
       "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição."
+    },
+    {
+      "id": "1719592502548",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Animais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719592502540.jpg",
+      "anfitriao": "Sofia Grossi",
+      "nome": "Projeto Tamar ",
+      "resumo": "Salvar as tartarugas das péssimas condições na Lagoa da Pampulha.",
+      "localizacao": "Lagoa da Pampulha",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Sexta-Feira"
+          },
+          {
+            "nome": "Sábado"
+          },
+          {
+            "nome": "Domingo"
+          }
+        ]
+      },
+      "horario": "10:30 - 17:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Pampulha"
+          }
+        ]
+      }
     }
   ],
   "doacoes": [

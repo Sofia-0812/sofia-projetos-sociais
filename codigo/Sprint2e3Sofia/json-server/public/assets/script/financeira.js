@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Preencher os elementos do card com os dados do projeto
     cardClone.querySelector(".projtitulo").textContent = projeto.nome;
     cardClone.querySelector(".projimagem").src = projeto.imagem;
-    cardClone.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitrião}`;
+    cardClone.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitriao}`;
     cardClone.querySelector(".temas").innerHTML = `<strong>Temas:</strong> ${obterSelecionados(projeto.temas.opcoes)}`;
     cardClone.querySelector(".ibancarias").innerHTML = `<strong>Informações Bancárias:</strong> ${projeto.ibancarias}`;
     cardClone.querySelector(".resumo").textContent = projeto.resumo;
