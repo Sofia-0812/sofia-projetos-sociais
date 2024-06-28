@@ -7,7 +7,7 @@ const port = 3000;
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        const dir = path.join(__dirname,'assets', 'imgs');
+        const dir = path.join(__dirname, 'public', 'assets', 'imagens');
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
         }
@@ -64,7 +64,7 @@ function processFormData(req, res, categoria) {
                 opcoes: (formData.local || []).map((nome, index) => ({ id: index + 1, nome }))
             },
             // Correção no campo imagem:
-            imagem: files && files.length > 0 ? `/assets/imgs/${files[0].filename}` : "",
+            imagem: files && files.length > 0 ? `/public/assets/imagens/${files[0].filename}` : "",
             resumo: formData.descricao,
             localizacao: formData.localizacao,
             dia: {
