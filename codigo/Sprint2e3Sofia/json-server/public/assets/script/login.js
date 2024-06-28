@@ -9,11 +9,11 @@ formLogin.addEventListener('submit', async (event) => {
     const password = passwordInput.value;
 
     try {
-        const response = await fetch('http://localhost:3000/usuarios');
+        const response = await fetch('http://localhost:3001/usuarios');
         const usuarios = await response.json();
         const usuario = usuarios.find(u => u.email === email && u.senha === password);
 
-        const resposta = await fetch('http://localhost:3000/anfitrioes');
+        const resposta = await fetch('http://localhost:3001/anfitrioes');
         const anfitrioes = await resposta.json();
         const anfitriao = anfitrioes.find(a => a.email === email && a.senha === password);
 

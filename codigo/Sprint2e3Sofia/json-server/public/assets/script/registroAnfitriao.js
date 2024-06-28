@@ -13,7 +13,7 @@ formLogin.addEventListener('submit', async (event) => {
     const novoUsuario = { nome, email, senha: password };
 
     try {
-        const response = await fetch('http://localhost:3000/anfitrioes', {
+        const response = await fetch('http://localhost:3001/anfitrioes', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(novoUsuario)

@@ -1,0 +1,127 @@
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+
+#view{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    column-gap: 100px;
+    margin-bottom: 20px; 
+}
+
+#cards{
+    grid-column: 1;
+}   
+section .card{
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 10px;  
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.card .conteudo{
+    display: flex;              
+    align-items: center;   
+}
+
+.conteudo p{
+    margin-left: 10px;
+}
+
+.card:hover{
+    transform: scale(1.01);
+}
+
+.card p{
+    font-size: small;
+    text-align: justify;
+}
+
+.projtitulo{
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.projimagem{
+    width: 20%;
+}
+
+.resumo{
+    margin-bottom: 0px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+#avaliacao p{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#div-avaliacao{
+    grid-column: 2;
+    margin: 0;
+    max-width: 300px; 
+}
+#avaliacao label{
+    display: block;
+}
+#avaliacao{
+    padding: 10px;
+    max-width: 500px;
+}
+#icons-container{
+    text-align: center;
+}
+#icons-container i{
+    padding: 0 5px;
+    font-size: 3rem;
+    color: yellow;
+}   
+#remover{
+    grid-column: 2;
+}
+@media screen and (max-width: 1195px){
+
+    main{
+        display: block;
+        padding-top: 80px;
+    }
+
+    .titulo{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 730px){
+
+    .card .conteudo{
+        display: block;              
+    }
+
+    .conteudo img{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}   

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Doação de Itens</title>
+    <link rel="stylesheet" href="assets/css/stylesForms.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <h1>Formulário de Doação de Itens</h1>
+        </div>
+        <form class="form" id="doacaoForm" enctype="multipart/form-data">
+            <div class="input-box">
+                <label for="nomeProjeto">Nome da Campanha:</label><br>
+                <input type="text" placeholder="Nome da Campanha" id="nomeProjeto" name="nomeProjeto"><br>
+            </div>
+
+            <div class="input-box">
+                <label for="temas">Temas:</label><br>
+                <input type="checkbox" name="temas" value="Idosos"> Idosos<br>
+                <input type="checkbox" name="temas" value="Animais"> Animais<br>
+                <input type="checkbox" name="temas" value="Hospitais"> Hospitais<br>
+                <input type="checkbox" name="temas" value="Crianças"> Crianças<br>
+                <input type="checkbox" name="temas" value="Pessoas e famílias necessitadas"> Pessoas e famílias necessitadas<br>
+                <input type="checkbox" name="temas" value="Ambientais"> Ambientais<br>
+                <input type="checkbox" name="temas" value="Educacionais"> Educacionais<br>
+            </div>
+
+            <div class="input-box">
+                <label for="local">Região:</label><br>
+                <input type="checkbox" name="local" value="Região Centro-Sul"> Região Centro-Sul<br>
+                <input type="checkbox" name="local" value="Região Leste"> Região Leste<br>
+                <input type="checkbox" name="local" value="Região Nordeste"> Região Nordeste<br>
+                <input type="checkbox" name="local" value="Região Noroeste"> Região Noroeste<br>
+                <input type="checkbox" name="local" value="Região Norte"> Região Norte<br>
+                <input type="checkbox" name="local" value="Região Oeste"> Região Oeste<br>
+                <input type="checkbox" name="local" value="Região Pampulha"> Região Pampulha<br>
+                <input type="checkbox" name="local" value="Região Barreiro"> Região Barreiro<br>
+                <input type="checkbox" name="local" value="Venda Nova"> Venda Nova<br>
+            </div>
+
+            <div class="input-box">
+                <label for="inserirImagens">Inserir Imagens:</label><br>
+                <input type="file" id="inserirImagens" name="inserirImagens" multiple><br>
+            </div>
+
+            <div class="input-box">
+                <label for="descricao">Descrição:</label><br>
+                <textarea id="descricao" placeholder="Descrição" name="descricao"></textarea><br>
+            </div>
+
+            <div class="input-box">
+                <label for="localizacao">Local de Entrega (ou informe se prefere recolhimento "a domicílio"):</label><br>
+                <input type="text" placeholder="Local de Entrega" id="localizacao" name="localizacao"><br>
+            </div>
+
+            <div class="input-box">
+                <label for="dias">Dias Disponíveis para Entrega:</label><br>
+                <input type="checkbox" name="dias" value="Segunda-Feira"> Segunda-Feira<br>
+                <input type="checkbox" name="dias" value="Terça-Feira"> Terça-Feira<br>
+                <input type="checkbox" name="dias" value="Quarta-Feira"> Quarta-Feira<br>
+                <input type="checkbox" name="dias" value="Quinta-Feira"> Quinta-Feira<br>
+                <input type="checkbox" name="dias" value="Sexta-Feira"> Sexta-Feira<br>
+                <input type="checkbox" name="dias" value="Sábado"> Sábado<br>
+                <input type="checkbox" name="dias" value="Domingo"> Domingo<br>
+            </div>
+
+            <div class="input-box">
+                <label for="horario">Horário de Entrega:</label><br>
+                <input type="text" placeholder="Horário de Entrega" id="horario" name="horario"><br>
+            </div>
+
+            <div class="input-box">
+                <label for="periodo">Período:</label><br>
+                <input type="checkbox" name="periodo" value="Manhã"> Manhã<br>
+                <input type="checkbox" name="periodo" value="Tarde"> Tarde<br>
+                <input type="checkbox" name="periodo" value="Noite"> Noite<br>
+            </div>
+
+            <button type="button" class="button" onclick="enviarDadosDoacao()">Enviar</button>
+        </form>
+    </div>
+    <script src="assets/script/formsScript.js"></script> 
+</body>
+</html>

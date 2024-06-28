@@ -1,0 +1,93 @@
+/* CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f3f1f1;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+
+.input-box textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.input-box input[type="file"] {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 5px;
+    background: transparent;
+}
+
+.button {
+    width: 25%;
+    margin: 0 auto; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #525252;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2a2a2a;
+}

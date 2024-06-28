@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contribuição Financeira</title>
+    <link rel="stylesheet" href="assets/css/stylesForms.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <h1>Formulário de Contribuição Financeira</h1>
+        </div>
+        <form class="form" id="cfinanceiraForm" enctype="multipart/form-data">
+            <div class="input-box">
+                <label for="nomeProjeto">Nome da Campanha:</label> <br>
+                <input type="text" placeholder="Nome da Campanha" id="nomeProjeto" name="nomeProjeto"><br>
+            </div>
+
+            <div class="input-box">
+                <label for="temas">Temas:</label><br>
+                <input type="checkbox" name="temas" value="Idosos"> Idosos<br>
+                <input type="checkbox" name="temas" value="Animais"> Animais<br>
+                <input type="checkbox" name="temas" value="Hospitais"> Hospitais<br>
+                <input type="checkbox" name="temas" value="Crianças"> Crianças<br>
+                <input type="checkbox" name="temas" value="Pessoas e famílias necessitadas"> Pessoas e famílias necessitadas<br>
+                <input type="checkbox" name="temas" value="Ambientais"> Ambientais<br>
+                <input type="checkbox" name="temas" value="Educacionais"> Educacionais<br>
+            </div>
+
+            <div class="input-box">
+                <label for="inserirImagens">Inserir Imagens:</label><br>
+                <input type="file" id="inserirImagens" name="inserirImagens" multiple><br>
+            </div>
+
+            <div class="input-box">
+                <label for="descricao">Descrição:</label><br>
+                <textarea id="descricao" placeholder="Descrição" name="descricao"></textarea><br>
+            </div>
+
+            <div class="input-box">
+                <label for="infoBancaria">Informações Bancárias:</label><br>
+                <input type="text" id="infoBancaria" placeholder="Informações bancárias" name="infoBancaria"><br>
+            </div>
+
+            <button type="button" class="button" onclick="enviarDadosCFinanceira()">Enviar</button>
+        </form>
+    </div>
+    <script src="assets/script/formsScript.js"></script> 
+</body>
+</html>

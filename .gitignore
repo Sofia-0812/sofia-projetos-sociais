@@ -1,4 +1,5 @@
-desktop.ini
+ndesktop.ini
 Icon?
 .DS_Store
 .vscode
+node_modules

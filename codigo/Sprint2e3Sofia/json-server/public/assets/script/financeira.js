@@ -42,7 +42,7 @@ temasInput.forEach((input) => {
 document.addEventListener("DOMContentLoaded", function () {
   // Função para carregar e exibir os cards dos projetos
   function carregarProjetos() {
-    fetch("http://localhost:3000/cfinanceira") // Caminho para o arquivo JSON
+    fetch("http://localhost:3001/cfinanceira") // Caminho para o arquivo JSON
       .then((response) => response.json())
       .then((data) => {
         const projetos = data;

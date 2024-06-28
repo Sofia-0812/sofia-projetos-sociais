@@ -84,8 +84,8 @@ else if (anfitriaoLogado) {
     </label>
     <ul id="menuPerfil">
         <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
-        <li class="mpItem" id="mp2"><img src="assets/imagens/plus-solid.svg"><a href="#">Novo Projeto</a></li>
-        <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="#">Meus Projetos</a></li>
+        <li class="mpItem" id="mp2"><img src="assets/imagens/plus-solid.svg"><a href="novoProjeto.html">Novo Projeto</a></li>
+        <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="meusProjsAnfitriao.html">Meus Projetos</a></li>
         <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logoutMobile">Sair</a></li>
     </ul>
     <div id="secoesMenu">
@@ -104,8 +104,8 @@ else if (anfitriaoLogado) {
                 </label>
                 <ul id="menuPerfil">
                     <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
-                    <li class="mpItem" id="mp2"><img src="assets/imagens/plus-solid.svg"><a href="#">Novo Projeto</a></li>
-                    <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="#">Meus Projetos</a></li>
+                    <li class="mpItem" id="mp2"><img src="assets/imagens/plus-solid.svg"><a href="novoProjeto.html">Novo Projeto</a></li>
+                    <li class="mpItem" id="mp3"><img src="assets/imagens/folder-regular.svg"><a href="meusProjsAnfitriao.html">Meus Projetos</a></li>
                     <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logout">Sair</a></li>
                 </ul>
             </li>

@@ -1,6 +1,6 @@
 async function obterDuvidas() {
     try {
-        const response = await fetch('http://localhost:3000/duvidas');
+        const response = await fetch('http://localhost:3001/duvidas');
         const duvidas = await response.json();
         return duvidas;
     } catch (error) {
@@ -52,7 +52,7 @@ async function preencherTemplate() {
                 localStorage.setItem(ajudouKey, 'true');
                 
                 try {
-                    const response = await fetch(`http://localhost:3000/duvidas/${duvida.id}`, {
+                    const response = await fetch(`http://localhost:3001/duvidas/${duvida.id}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json',
@@ -74,7 +74,7 @@ async function preencherTemplate() {
                 btnAjudou.disabled = true;
                 localStorage.setItem(naoAjudouKey, 'true');
                 try {
-                    const response = await fetch(`http://localhost:3000/duvidas/${duvida.id}`, {
+                    const response = await fetch(`http://localhost:3001/duvidas/${duvida.id}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json',
