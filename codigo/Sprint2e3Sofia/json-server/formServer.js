@@ -168,6 +168,7 @@ function processFormData(req, res, categoria) {
 
     // Adicionar o anfitrião ao objeto formatado
     formattedData.anfitriao = formData.anfitriao;
+    formattedData.id_anfitriao = formData.anfitriaoId;
 
     // Campos específicos por categoria
     switch (categoria) {
@@ -224,9 +225,9 @@ function processFormData(req, res, categoria) {
       db[categoriaParaSalvar] = db[categoriaParaSalvar] || [];
       db[categoriaParaSalvar].push(formattedData);
 
-      const anfitriaoId = formData.anfitriaoId; // Obtém o nome do anfitrião do formulário
+      const anfitriaoId = formData.anfitriaoId; 
 
-      const anfitriao = db.anfitrioes.find(anfitriao => anfitriao.id === anfitriaoId);//Obtém o anfitriao logado
+      const anfitriao = db.anfitrioes.find(anfitriao => anfitriao.id === anfitriaoId);
 
       // Verifica se já existe o objeto id_meusProjetos para o anfitrião
       if (!anfitriao.id_meusProjetos) {

@@ -23,7 +23,10 @@
       "senha": "789",
       "info": "Estudante de Ciência da computacao da puc minas",
       "id_meusProjetos": [
-        "1719607329549"
+        "1719607329549",
+        "1719610042731",
+        "1719610157734",
+        "1719611075029"
       ]
     }
   ],
@@ -550,6 +553,44 @@
         "opcoes": [
           {
             "nome": "Região Oeste"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719611075029",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Crianças"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719611074982.png",
+      "anfitriao": "Joao Maia",
+      "id_anfitriao": "26b9",
+      "nome": "ebhbherbherebhr",
+      "resumo": "fvbdvfdkbvbfd",
+      "localizacao": "brbhrbhrjbjbhrj",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Quinta-Feira"
+          }
+        ]
+      },
+      "horario": "ywfuyuwygw",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Pampulha"
           }
         ]
       }
@@ -1148,6 +1189,37 @@
       },
       "ibancarias": "Chave do pix CPF: 150.579.436-69",
       "resumo": "Campanha para arrecadar fundos destinados à compra de ração, medicamentos, cobertores e outros itens essenciais para animais resgatados."
+    },
+    {
+      "id": "1719610042731",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Idosos"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719610042697.png",
+      "anfitriao": "Joao Maia",
+      "nome": "vdwegdye",
+      "resumo": "wufi4wy3gy4",
+      "ibancarias": "24ri2g4ry"
+    },
+    {
+      "id": "1719610157734",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Idosos"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719610157712.png",
+      "anfitriao": "Joao Maia",
+      "id_anfitriao": "26b9",
+      "nome": "wegygydegyewdgy",
+      "resumo": "wedyudyeuwye",
+      "ibancarias": "wedggyeygwe"
     }
   ]
 }
