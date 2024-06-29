@@ -34,7 +34,11 @@
       "id": "1",
       "nome": "João Victor",
       "email": "usuario1@email.com",
-      "senha": "senha1"
+      "senha": "senha1",
+      "id_favoritos": [
+        "1",
+        "1719594259745"
+      ]
     },
     {
       "id": "2",

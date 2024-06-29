@@ -21,7 +21,7 @@ document.getElementById('cabecalho').innerHTML = `<link rel="stylesheet" href="a
 </div>
 </nav>`;
 
-const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 let anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
 
 if (usuarioLogado) {
