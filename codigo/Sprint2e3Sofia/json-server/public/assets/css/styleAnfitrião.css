@@ -35,8 +35,9 @@ section .card{
 }
 
 #espaco{
-    display: inline-block;
-    margin-right: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .texto button{
@@ -53,7 +54,9 @@ section .card{
 }
 
 .projtitulo{
-    width: 100%;
+    width: 95%;
+    height: fit-content;
+    padding: 5px 0px;
     font-size: medium;
     font-weight: bold;
     text-align: center;
@@ -79,7 +82,8 @@ section a{
 }
 
 #btnExcluir{
-    margin: 0 20px;
+    margin: 0%;
+    padding: 0px 6px;
     background-color: whitesmoke;
     border: none;
     font-size: 2rem;
@@ -87,7 +91,7 @@ section a{
 }
 
 #btnExcluir:hover{
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
 
 /* MOBILE */

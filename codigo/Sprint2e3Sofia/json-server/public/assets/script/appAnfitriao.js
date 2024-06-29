@@ -108,6 +108,7 @@ async function excluirProjeto(anfitriaoId, projetoId, tipo) {
         if (!responseDeletarProjeto.ok) {
             throw new Error('Erro ao deletar projeto.');
         }
+        alert('Projeto deletado com sucesso!');
 
         console.log(`Projeto ${projetoId} deletado com sucesso.`);
     } catch (error) {
