@@ -1,5 +1,6 @@
 anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
 const anfitriaoId = anfitriaoLogado.id; // ID do anfitrião para o qual você deseja obter os projetos
+console.log(anfitriaoLogado);
 
 // Função para obter os projetos associados a um anfitrião específico
 async function obterProjetosDoAnfitriao(anfitriaoId) {

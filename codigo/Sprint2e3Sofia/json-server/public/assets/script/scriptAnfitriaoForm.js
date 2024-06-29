@@ -1,23 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+  const anfitriaoLogado = JSON.parse(localStorage.getItem('anfitriaoLogado'));
+  console.log(anfitriaoLogado);
 
-  if (!usuarioLogado || !usuarioLogado.id) {
+  if (!anfitriaoLogado || !anfitriaoLogado.id) {
     alert('Você precisa estar logado para acessar esta página.');
     window.location.href = 'login.html';
     return;
   }
 
-  document.getElementById('nome').value = usuarioLogado.nome;
-  document.getElementById('email').value = usuarioLogado.email;
+  document.getElementById('nome').value = anfitriaoLogado.nome;
+  document.getElementById('email').value = anfitriaoLogado.email;
+  document.getElementById('info').value = anfitriaoLogado.info;
 
   // Lidar com o envio do formulário
   document.getElementById('profile-form').addEventListener('submit', (event) => {
     event.preventDefault();
 
     const dados = {
-      ...usuarioLogado,  // Mantém todos os campos do objeto original
+      ...anfitriaoLogado,  // Mantém todos os campos do objeto original
       nome: document.getElementById('nome').value,
-      email: document.getElementById('email').value
+      email: document.getElementById('email').value,
+      info: document.getElementById('info').value
     };
 
     const novaSenha = document.getElementById('nova-senha').value;
@@ -25,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const senhaAtual = document.getElementById('senha-atual').value;
 
     if (novaSenha || confirmarSenha) {
-      if (senhaAtual !== usuarioLogado.senha) {
+      if (senhaAtual !== anfitriaoLogado.senha) {
         alert('A senha atual está incorreta.');
         return;
       }
@@ -37,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       dados.senha = novaSenha;
     } else {
-      dados.senha = usuarioLogado.senha; 
+      dados.senha = anfitriaoLogado.senha;
     }
 
-    fetch(`http://localhost:3000/usuarios/${usuarioLogado.id}`, {
+    fetch(`http://localhost:3001/anfitrioes/${anfitriaoLogado.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -49,13 +52,14 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .then(response => {
       if (!response.ok) {
-        return response.json().then(err => { throw new Error(err.error || 'Erro ao atualizar dados no servidor.') }); 
+        return response.json().then(err => { throw new Error(err.error || 'Erro ao atualizar dados no servidor.') });
       }
       return response.json();
     })
     .then(data => {
       alert('Dados atualizados com sucesso!');
-      localStorage.setItem('usuarioLogado', JSON.stringify(dados)); // Atualiza o objeto no localStorage
+      localStorage.setItem('anfitriaoLogado', JSON.stringify(dados)); // Atualiza o objeto no localStorage
+      console.log(dados);
       window.location.href = 'index.html';
     })
     .catch(error => {
