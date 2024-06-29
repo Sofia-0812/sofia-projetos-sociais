@@ -38,12 +38,20 @@ async function preencherProjetosNoHTML() {
         const projetos = await obterProjetosDoAnfitriao(anfitriaoId);
 
         const cardsContainer = document.getElementById("cards-container");
+        const semCards = document.getElementById("semCards");
 
+        // Verificar se há projetos
+        if (projetos.length === 0) {
+            semCards.style.display = 'block';
+        } else {
+            semCards.style.display = 'none';
+        }
         // Para cada projeto, criar e adicionar um elemento HTML com suas informações
         projetos.forEach((projeto) => {
-            const card = criarCard(projeto);
-            cardsContainer.appendChild(card);
-        });
+              const card = criarCard(projeto);
+              cardsContainer.appendChild(card);
+          });
+        
 
         function criarCard(projeto) {
             // Obter o template do card

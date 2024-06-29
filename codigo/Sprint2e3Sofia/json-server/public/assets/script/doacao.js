@@ -143,6 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cardClone = document.importNode(template.content, true);
 
     // Preencher os elementos do card com os dados do projeto
+    cardClone.querySelector(".card-link").href = `cardDoacao.html?id=${projeto.id}`
     cardClone.querySelector(".projtitulo").textContent = projeto.nome;
     cardClone.querySelector(".projimagem").src = projeto.imagem;
     cardClone.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitriao}`;

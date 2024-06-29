@@ -1,62 +1,161 @@
 {
   "anfitrioes": [
     {
-      "id": "1",
-      "nome": "Sofia Grossi",
-      "email": "sofiagrossi.gvs@gmail.com",
-      "senha": "1234",
+      "id": "d220",
+      "nome": "PUC Minas",
+      "email": "pucminas@gmail.com",
+      "senha": "1111",
+      "info": "A Pontifícia Universidade Católica de Minas Gerais é uma instituição de ensino superior que promove projetos sociais focados na educação, inclusão e desenvolvimento comunitário. Com um forte compromisso com a responsabilidade social, a PUC Minas busca transformar vidas por meio de iniciativas voltadas para a comunidade.",
       "id_meusProjetos": [
-        "1719594259745",
-        "1719594457434"
-      ],
-      "id_duvidasAvaliadas": [
-        "2"
+        "1719684249689",
+        "1719684729790",
+        "1719685090152"
       ]
     },
     {
-      "id": "c69b",
-      "nome": "Filipi",
-      "email": "filipi.pereira@gmail.com",
-      "senha": "4321"
+      "id": "7ce5",
+      "nome": "UFMG",
+      "email": "ufmg@gmail.com",
+      "senha": "2222",
+      "info": "A Universidade Federal de Minas Gerais se destaca pelo seu compromisso com a sociedade, promovendo projetos sociais que abrangem áreas como saúde, educação e meio ambiente. A UFMG utiliza sua expertise acadêmica para desenvolver soluções inovadoras e inclusivas para desafios sociais contemporâneos.",
+      "id_meusProjetos": [
+        "1719685691353",
+        "1719686596838"
+      ]
     },
     {
-      "id": "26b9",
-      "nome": "Joao Maia",
-      "email": "joaomaia@gmail.com",
-      "senha": "789",
-      "info": "Para contribuir financeiramente, clique no menu Contribuição Financeira e selecione o projeto desejado. As informações bancárias estarão disponíveis na página do projeto. A transação deve ser feita fora do nosso site, usando os dados fornecidos. Certifique-se de confirmar a transferência com o anfitrião.",
+      "id": "2efe",
+      "nome": "ONG Amigo Bicho",
+      "email": "amigobicho@gmail.com",
+      "senha": "3333",
+      "info": "A ONG Amigo Bicho é dedicada à proteção e bem-estar dos animais. Com programas de resgate, adoção e cuidados veterinários, a organização trabalha incansavelmente para garantir um futuro melhor para animais abandonados e em situação de risco. Com mais de 10 anos de atuação, a ONG é conhecida por seu comprometimento e seriedade.",
       "id_meusProjetos": [
-        "1719610042731",
-        "1719610157734",
-        "1719611075029"
+        "1719687043853",
+        "1719687289441",
+        "1719687427447"
+      ]
+    },
+    {
+      "id": "2685",
+      "nome": "Lar São Vicente",
+      "email": "saovicente@gmail.com",
+      "senha": "4444",
+      "info": "O Lar São Vicente para Idosos oferece há mais de 50 anos cuidados e suporte para a terceira idade. Com um ambiente acolhedor e atividades voltadas para a saúde e bem-estar, a instituição visa proporcionar uma qualidade de vida digna e feliz para seus residentes.",
+      "id_meusProjetos": [
+        "1719687769979",
+        "1719687968877"
+      ]
+    },
+    {
+      "id": "a4da",
+      "nome": "Instituto Educar",
+      "email": "institutoeducar@gmail.com",
+      "senha": "5555",
+      "info": "O Instituto Educar é focado na promoção da educação de qualidade para crianças e jovens de comunidades carentes. Através de programas educativos e culturais, a instituição busca transformar vidas e abrir portas para um futuro melhor.",
+      "id_meusProjetos": [
+        "1719688499550",
+        "1719688875376",
+        "1719689038216"
+      ]
+    },
+    {
+      "id": "6a3a",
+      "nome": "Hospital Santa Casa",
+      "email": "santacasa@gmail.com",
+      "senha": "6666",
+      "info": "A Santa Casa é um hospital filantrópico que presta serviços de saúde para a população. Com um forte compromisso com a comunidade, o hospital oferece atendimento médico de qualidade, independente da condição socioeconômica dos pacientes.",
+      "id_meusProjetos": [
+        "1719689415981",
+        "1719689687894",
+        "1719689838483"
+      ]
+    },
+    {
+      "id": "6fd4",
+      "nome": "Cruz Vermelha",
+      "email": "cruzvermelha@gmail.com",
+      "senha": "7777",
+      "info": "A Cruz Vermelha é uma organização humanitária internacional que presta assistência em situações de emergência e desastres. Com programas de saúde, socorro e educação, a Cruz Vermelha trabalha para aliviar o sofrimento humano e promover a dignidade.",
+      "id_meusProjetos": [
+        "1719690192196",
+        "1719690333491",
+        "1719690502476"
+      ]
+    },
+    {
+      "id": "1dfd",
+      "nome": "Projeto Solidariedade",
+      "email": "projetosolidariedade@gmail.com",
+      "senha": "8888",
+      "info": "O Projeto Solidariedade existe há mais de 15 anos e é uma iniciativa voltada para o apoio às comunidades carentes. Com ações de doação, capacitação e inclusão social, o projeto visa melhorar a qualidade de vida e promover a dignidade humana.",
+      "id_meusProjetos": [
+        "1719691076717",
+        "1719691192723"
+      ]
+    },
+    {
+      "id": "3f6c",
+      "nome": "ONG Verde Esperança",
+      "email": "verdeesperanca@gmail.com",
+      "senha": "9999",
+      "info": "A ONG Verde Esperança é dedicada à preservação do meio ambiente e sustentabilidade. Com programas de educação ambiental, reflorestamento e reciclagem, a organização trabalha para construir um futuro mais verde e sustentável para todos.",
+      "id_meusProjetos": [
+        "1719691378330"
+      ],
+      "id_duvidasAvaliadas": [
+        "3"
       ]
     }
   ],
   "usuarios": [
     {
-      "id": "1",
-      "nome": "João Victor",
-      "email": "usuario1@email.com",
-      "senha": "1704",
+      "id": "1c11",
+      "nome": "Sofia Grossi",
+      "email": "sofiagrossi@gmail.com",
+      "senha": "0812",
       "id_favoritos": [
-        "1719594259745",
-        "1"
+        "1719685691353",
+        "1719688499550",
+        "1719689687894",
+        "1719688875376",
+        "1719687427447",
+        "1719690502476"
       ],
       "id_duvidasAvaliadas": [
-        "1"
+        "1",
+        "3"
       ]
     },
     {
-      "id": "2",
-      "nome": "fdavsdvsd",
-      "email": "usuario2@email.com",
-      "senha": "senha2"
+      "id": "58e6",
+      "nome": "João Victor Maia",
+      "email": "joaomaia@gmail.com",
+      "senha": "1704",
+      "id_favoritos": [
+        "1719684249689",
+        "1719687769979",
+        "1719685090152",
+        "1719691378330"
+      ],
+      "id_duvidasAvaliadas": [
+        "2",
+        "5"
+      ]
     },
     {
-      "id": "8afe",
-      "nome": "joao",
-      "email": "xxx@gmail.com",
-      "senha": "senha3"
+      "id": "6ec1",
+      "nome": "Filipi Pereira",
+      "email": "filipipereira@gmail.com",
+      "senha": "1234",
+      "id_duvidasAvaliadas": [
+        "6"
+      ],
+      "id_favoritos": [
+        "1719687043853",
+        "1719690192196",
+        "1719689838483",
+        "1719687968877"
+      ]
     }
   ],
   "duvidas": [
@@ -71,42 +170,35 @@
       "id": "2",
       "titulo": "Como visualizar meus projetos favoritos?",
       "texto": "Para visualizar seus favoritos, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Favoritos\".",
-      "ajudou": 0,
-      "naoAjudou": 1
+      "ajudou": 1,
+      "naoAjudou": 0
     },
     {
       "id": "3",
       "titulo": "Como visualizar os projetos que publiquei como Anfitrião?",
       "texto": "Para visualizar os projetos que você publicou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\".",
-      "ajudou": 0,
+      "ajudou": 2,
       "naoAjudou": 0
     },
     {
       "id": "4",
-      "titulo": "Como avaliar um projeto em que participei?",
-      "texto": "Para avaliar os projetos em que você participou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\". Na tela de \"Meus Projetos\" você conseguirá avaliar os anfitriões provedores dos projetos em que participou. ",
-      "ajudou": 0,
-      "naoAjudou": 0
-    },
-    {
-      "id": "5",
       "titulo": "Como realizar uma contribuição financeira?",
       "texto": "Para fazer uma doação de dinheiro, você deve clicar no botão do menu de \"Contribuição Financeira\", depois nessa tela você deve clicar no card do projeto para o qual deseja contribuir. Na página específica do projeto terão as informações bancárias do anfitrião. Não é possível fazer a transação financeira diretamente do nosso site, portanto você deve usar as informações fornecidas para fazer a transação por conta própria.",
       "ajudou": 0,
       "naoAjudou": 0
     },
     {
-      "id": "6",
+      "id": "5",
       "titulo": "Como entrar em contato com o anfitrião?",
       "texto": "Não é possível entrar em contato com o anfitrião diretamente pelo site. No entanto, ao clicar no card de um projeto de seu interesse, as informações de contato do anfitrião estarão disponíveis para que você possa entrar em contato.",
       "ajudou": 0,
-      "naoAjudou": 0
+      "naoAjudou": 1
     },
     {
-      "id": "7",
+      "id": "6",
       "titulo": "Como voltar para a página inicial?",
       "texto": "Para voltar à tela inicial, clique na logo localizada no centro do menu.",
-      "ajudou": 0,
+      "ajudou": 1,
       "naoAjudou": 0
     }
   ],
@@ -126,12 +218,7 @@
   ],
   "volunt": [
     {
-      "id": "1",
-      "nome": "Projeto de Inclusão Digital",
-      "horario": "9:30 - 12:00",
-      "localizacao": "Rua Padre Pedro Pinto 1700, Bairro Venda Nova",
-      "anfitriao": "PUC Minas",
-      "imagem": "/assets/imagens/inclusaoDigital.jpg",
+      "id": "1719684249689",
       "temas": {
         "opcoes": [
           {
@@ -141,17 +228,16 @@
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "nome": "Educação"
+            "nome": "Educacionais"
           }
         ]
       },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Venda Nova"
-          }
-        ]
-      },
+      "imagem": "/assets/imagens/1719684249684.jpg",
+      "anfitriao": "PUC Minas",
+      "id_anfitriao": "d220",
+      "nome": "Projeto de Inclusão Digital",
+      "resumo": "Projeto para promover inclusão digital entre crianças de comunidades carentes, fornecendo acesso a tecnologia e ensino de habilidades digitais.",
+      "localizacao": "Rua Padre Pedro Pinto 1700, Bairro Venda Nova",
       "dia": {
         "opcoes": [
           {
@@ -165,6 +251,7 @@
           }
         ]
       },
+      "horario": "9:30 - 12:00",
       "periodo": {
         "opcoes": [
           {
@@ -172,22 +259,53 @@
           }
         ]
       },
-      "resumo": "Projeto para promover inclusão digital entre crianças de comunidades carentes, fornecendo acesso a tecnologia e ensino de habilidades digitais."
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Venda Nova"
+          }
+        ]
+      }
     },
     {
-      "id": "2",
-      "nome": "Projeto Verde",
-      "horario": "8:00 - 10:00 e 18:00 - 19:30",
-      "localizacao": "Avenida Otacílio Negrão de Lima 5000, Bairro São Luiz",
-      "anfitriao": "Universidade Federal de Minas Gerais",
-      "imagem": "/assets/imagens/sustentabilidade.jpeg",
+      "id": "1719685691353",
       "temas": {
         "opcoes": [
           {
-            "nome": "Meio Ambiente"
+            "nome": "Ambientais"
           },
           {
-            "nome": "Educação"
+            "nome": "Educacionais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719685691342.jpeg",
+      "anfitriao": "UFMG",
+      "id_anfitriao": "7ce5",
+      "nome": "Projeto Verde",
+      "resumo": "Iniciativa para promover sustentabilidade e educação ambiental em escolas públicas, incentivando práticas ecológicas e conscientização ambiental.",
+      "localizacao": "Avenida Otacílio Negrão de Lima 5000, Bairro São Luiz",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Quarta-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sábado"
+          }
+        ]
+      },
+      "horario": "8:00 - 10:00 e 18:00 - 19:30",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Noite"
           }
         ]
       },
@@ -197,9 +315,28 @@
             "nome": "Região Pampulha"
           }
         ]
+      }
+    },
+    {
+      "id": "1719687043853",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Animais"
+          }
+        ]
       },
+      "imagem": "/assets/imagens/1719687043800.jpg",
+      "anfitriao": "ONG Amigo Bicho",
+      "id_anfitriao": "2efe",
+      "nome": "Cuidando dos Animais",
+      "resumo": "Projeto focado no resgate e cuidado de animais de rua, promovendo adoções responsáveis e conscientização sobre bem-estar animal.",
+      "localizacao": "Avenida Silva Lobo 1000, Bairro Grajaú",
       "dia": {
         "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
           {
             "nome": "Quarta-Feira"
           },
@@ -211,29 +348,14 @@
           }
         ]
       },
+      "horario": "16:00 - 20:00",
       "periodo": {
         "opcoes": [
           {
-            "nome": "Manhã"
+            "nome": "Tarde"
           },
           {
             "nome": "Noite"
-          }
-        ]
-      },
-      "resumo": "Iniciativa para promover sustentabilidade e educação ambiental em escolas públicas, incentivando práticas ecológicas e conscientização ambiental."
-    },
-    {
-      "id": "3",
-      "nome": "Cuidando dos Animais",
-      "horario": "16:00 - 20:00",
-      "localizacao": "Avenida Silva Lobo 1000, Bairro Grajaú",
-      "anfitriao": "ONG Amigo Bicho",
-      "imagem": "/assets/imagens/unnamed.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Animais"
           }
         ]
       },
@@ -243,59 +365,23 @@
             "nome": "Região Oeste"
           }
         ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Segunda-Feira"
-          },
-          {
-            "nome": "Quarta-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sábado"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          },
-          {
-            "nome": "Noite"
-          }
-        ]
-      },
-      "resumo": "Projeto focado no resgate e cuidado de animais de rua, promovendo adoções responsáveis e conscientização sobre bem-estar animal."
+      }
     },
     {
-      "id": "4",
-      "nome": "Apoio aos Idosos",
-      "horario": "9:00 - 15:00",
-      "localizacao": "Rua Cristiano Machado 4000, Bairro Planalto",
-      "anfitriao": "Lar São Vicente",
-      "imagem": "/assets/imagens/asilo.jpeg",
+      "id": "1719687769979",
       "temas": {
         "opcoes": [
           {
             "nome": "Idosos"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
           }
         ]
       },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Norte"
-          }
-        ]
-      },
+      "imagem": "/assets/imagens/1719687769972.jpeg",
+      "anfitriao": "Lar São Vicente",
+      "id_anfitriao": "2685",
+      "nome": "Apoio aos Idosos",
+      "resumo": "Iniciativa para melhorar a qualidade de vida dos idosos em asilos e lares de repouso, oferecendo atividades e suporte.",
+      "localizacao": "Rua Cristiano Machado 4000, Bairro Planalto",
       "dia": {
         "opcoes": [
           {
@@ -312,6 +398,7 @@
           }
         ]
       },
+      "horario": "9:00 - 15:00",
       "periodo": {
         "opcoes": [
           {
@@ -322,15 +409,16 @@
           }
         ]
       },
-      "resumo": "Iniciativa para melhorar a qualidade de vida dos idosos em asilos e lares de repouso, oferecendo atividades e suporte."
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Norte"
+          }
+        ]
+      }
     },
     {
-      "id": "5",
-      "nome": "Educação para Todos",
-      "horario": "13:00 - 20:00",
-      "localizacao": "Avenida Pedro II 3000, Bairro Caiçara-Adelaide",
-      "anfitriao": "Instituto Educar",
-      "imagem": "/assets/imagens/escola.jpg",
+      "id": "1719688499550",
       "temas": {
         "opcoes": [
           {
@@ -340,17 +428,16 @@
             "nome": "Pessoas e famílias necessitadas"
           },
           {
-            "nome": "Educação"
+            "nome": "Educacionais"
           }
         ]
       },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Noroeste"
-          }
-        ]
-      },
+      "imagem": "/assets/imagens/1719688499406.jpg",
+      "anfitriao": "Instituto Educar",
+      "id_anfitriao": "a4da",
+      "nome": "Educação Para Todos",
+      "resumo": "Projeto dedicado a oferecer oportunidades educacionais para crianças e jovens de baixa renda, promovendo inclusão social e desenvolvimento.",
+      "localizacao": "Avenida Pedro II 3000, Bairro Caiçara-Adelaide",
       "dia": {
         "opcoes": [
           {
@@ -367,6 +454,7 @@
           }
         ]
       },
+      "horario": "13:00 - 20:00",
       "periodo": {
         "opcoes": [
           {
@@ -377,15 +465,16 @@
           }
         ]
       },
-      "resumo": "Projeto dedicado a oferecer oportunidades educacionais para crianças e jovens de baixa renda, promovendo inclusão social e desenvolvimento."
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Noroeste"
+          }
+        ]
+      }
     },
     {
-      "id": "6",
-      "nome": "Saúde e Bem-Estar",
-      "horario": "7:30 - 11:30",
-      "localizacao": "Avenida Sinfrônio Brochado 1200, Bairro Barreiro",
-      "anfitriao": "Hospital Santa Casa",
-      "imagem": "/assets/imagens/hospital.jpg",
+      "id": "1719689415981",
       "temas": {
         "opcoes": [
           {
@@ -396,13 +485,12 @@
           }
         ]
       },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Barreiro"
-          }
-        ]
-      },
+      "imagem": "/assets/imagens/1719689415958.jpg",
+      "anfitriao": "Hospital Santa Casa",
+      "id_anfitriao": "6a3a",
+      "nome": "Saúde e Bem-Estar",
+      "resumo": "Programa voltado para a promoção da saúde e bem-estar de pacientes hospitalizados e suas famílias, com foco em cuidados integrados.",
+      "localizacao": "Avenida Sinfrônio Brochado 1200, Bairro Barreiro",
       "dia": {
         "opcoes": [
           {
@@ -419,6 +507,7 @@
           }
         ]
       },
+      "horario": "7:30 - 11:30",
       "periodo": {
         "opcoes": [
           {
@@ -426,19 +515,59 @@
           }
         ]
       },
-      "resumo": "Programa voltado para a promoção da saúde e bem-estar de pacientes hospitalizados e suas famílias, com foco em cuidados integrados."
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Barreiro"
+          }
+        ]
+      }
     },
     {
-      "id": "7",
-      "nome": "Alimentação Solidária",
-      "horario": "12:00 - 15:00",
-      "localizacao": "Rua Niquelina 1700, Bairro Santa Efigênia/Avenida do Contorno 6000, Bairro Funcionários/Avenida Cristiano Machado 6500, Bairro União",
-      "anfitriao": "Banco de Alimentos",
-      "imagem": "/assets/imagens/comida.jpg",
+      "id": "1719690192196",
       "temas": {
         "opcoes": [
           {
             "nome": "Pessoas e famílias necessitadas"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719690192189.jpg",
+      "anfitriao": "Cruz Vermelha",
+      "id_anfitriao": "6fd4",
+      "nome": "Alimentação Solidária",
+      "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição.",
+      "localizacao": "Rua Niquelina 1700, Bairro Santa Efigênia/Avenida do Contorno 6000, Bairro Funcionários/Avenida Cristiano Machado 6500, Bairro União",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
+          {
+            "nome": "Terça-Feira"
+          },
+          {
+            "nome": "Quarta-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          },
+          {
+            "nome": "Sábado"
+          },
+          {
+            "nome": "Domingo"
+          }
+        ]
+      },
+      "horario": "12:00 - 15:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Tarde"
           }
         ]
       },
@@ -452,117 +581,6 @@
           },
           {
             "nome": "Região Nordeste"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Segunda-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sábado"
-          },
-          {
-            "nome": "Domingo"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição."
-    },
-    {
-      "id": "1719594259745",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Animais"
-          },
-          {
-            "nome": "Ambientais"
-          }
-        ]
-      },
-      "imagem": "/assets/imagens/1719594259739.jpg",
-      "anfitriao": "Sofia Grossi",
-      "nome": "Projeto Tamar",
-      "resumo": "Salvar as tartarugas das péssimas condições da Lagoa da Pampulha.",
-      "localizacao": "Lagoa da Pampulha",
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Sexta-Feira"
-          },
-          {
-            "nome": "Sábado"
-          },
-          {
-            "nome": "Domingo"
-          }
-        ]
-      },
-      "horario": "10:00 - 15:00",
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          },
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Pampulha"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1719611075029",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Crianças"
-          }
-        ]
-      },
-      "imagem": "/assets/imagens/1719611074982.png",
-      "anfitriao": "Joao Maia",
-      "id_anfitriao": "26b9",
-      "nome": "ebhbherbherebhr",
-      "resumo": "fvbdvfdkbvbfd",
-      "localizacao": "brbhrbhrjbjbhrj",
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Quinta-Feira"
-          }
-        ]
-      },
-      "horario": "ywfuyuwygw",
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Pampulha"
           }
         ]
       }
@@ -570,417 +588,7 @@
   ],
   "doacoes": [
     {
-      "id": "1",
-      "nome": "Campanha de Arrecadação de Alimentos",
-      "horario": "14:00 - 17:00",
-      "localizacao": "Rua Caratinga 451, Bairro Anchieta",
-      "anfitriao": "Cruz Vermelha",
-      "imagem": "/assets/imagens/arrecadacaoAlimentos.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Idosos"
-          },
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Centro-Sul"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Segunda-Feira"
-          },
-          {
-            "nome": "Quarta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Campanha para arrecadação de alimentos para famílias carentes e idosos necessitados."
-    },
-    {
-      "id": "2",
-      "nome": "Doação de Materiais Escolares",
-      "horario": "9:30 - 17:00",
-      "localizacao": "Rua Érico Veríssimo 520, Bairro Rio Branco",
-      "anfitriao": "Projeto Ler e Escrever",
-      "imagem": "/assets/imagens/materiaisEscolares.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Educação"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Venda Nova"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Terça-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          },
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Campanha para fornecer materiais escolares a crianças de famílias carentes, promovendo o acesso à educação."
-    },
-    {
-      "id": "3",
-      "nome": "Doação de Roupas e Cobertores",
-      "horario": "10:00 - 15:30",
-      "localizacao": "Avenida Antônio Carlos 6627, Bairro Pampulha",
-      "anfitriao": "Fundação Amor ao Próximo",
-      "imagem": "/assets/imagens/roupasCobertores.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Idosos"
-          },
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Pampulha"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          },
-          {
-            "nome": "Domingo"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          },
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Coleta de roupas e cobertores para ajudar famílias e indivíduos em situação de rua durante o inverno."
-    },
-    {
-      "id": "4",
-      "nome": "Doação de Livros",
-      "horario": "9:30 - 17:00",
-      "localizacao": "Avenida Amazonas 7675, Bairro Nova Cintra",
-      "anfitriao": "Biblioteca Comunitária",
-      "imagem": "/assets/imagens/doacaoLivros.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Hospitais"
-          },
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          },
-          {
-            "nome": "Educação"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Oeste"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Segunda-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sábado"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          },
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Coleta de livros para montar bibliotecas em hospitais e escolas públicas, incentivando a leitura."
-    },
-    {
-      "id": "5",
-      "nome": "Coleta de Brinquedos",
-      "horario": "19:00 - 22:00",
-      "localizacao": "Avenida Antônio Carlos 7450, Bairro São Francisco",
-      "anfitriao": "Associação Alegria de Viver",
-      "imagem": "/assets/imagens/coletaBrinquedos.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Hospitais"
-          },
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Norte"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Terça-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Noite"
-          }
-        ]
-      },
-      "resumo": "Coleta de brinquedos novos e usados para distribuir a crianças em hospitais e orfanatos."
-    },
-    {
-      "id": "6",
-      "nome": "Doação de Equipamentos de Proteção Individual (EPIs)",
-      "horario": "06:00 - 12:00",
-      "localizacao": "Avenida Dom Pedro II, 1678 - Bairro Carlos Prates",
-      "anfitriao": "Hospital da Esperança",
-      "imagem": "/assets/imagens/doacaoEPIs.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Idosos"
-          },
-          {
-            "nome": "Hospitais"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Noroeste"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Terça-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          }
-        ]
-      },
-      "resumo": "Arrecadação de EPIs para proteger profissionais de saúde e pacientes durante a pandemia."
-    },
-    {
-      "id": "7",
-      "nome": "Coleta de Produtos de Higiene Pessoal",
-      "horario": "13:00 - 18:00",
-      "localizacao": "Avenida Sinfrônio Brochado, 2400 - Bairro Barreiro",
-      "anfitriao": "ONG Saúde e Vida",
-      "imagem": "/assets/imagens/produtosHigiene.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Idosos"
-          },
-          {
-            "nome": "Hospitais"
-          },
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Barreiro"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Terça-Feira"
-          },
-          {
-            "nome": "Quinta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Coleta de produtos de higiene pessoal para distribuição a famílias carentes e indivíduos em situação de rua."
-    },
-    {
-      "id": "8",
-      "nome": "Campanha de Proteção Animal",
-      "horario": "10:15 - 16:30",
-      "localizacao": "Avenida Cristiano Machado, 4000 - Bairro União/Avenida Bernardo Monteiro, 1567 - Bairro Santa Efigênia",
-      "anfitriao": "Associação Protetora dos Animais",
-      "imagem": "/assets/imagens/protecaoAnimal.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Animais"
-          },
-          {
-            "nome": "Meio Ambiente"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Nordeste"
-          },
-          {
-            "nome": "Região Leste"
-          }
-        ]
-      },
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Segunda-Feira"
-          },
-          {
-            "nome": "Quarta-Feira"
-          },
-          {
-            "nome": "Sexta-Feira"
-          },
-          {
-            "nome": "Sábado"
-          }
-        ]
-      },
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Manhã"
-          },
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "resumo": "Campanha para arrecadar ração, medicamentos, cobertores e outros itens essenciais para animais resgatados e em situação de abandono."
-    },
-    {
-      "id": "1719594457434",
+      "id": "1719684729790",
       "temas": {
         "opcoes": [
           {
@@ -991,21 +599,16 @@
           }
         ]
       },
-      "imagem": "/assets/imagens/1719594457424.png",
-      "anfitriao": "Sofia Grossi",
-      "nome": "Doação de Materiais Escolares Usados",
-      "resumo": "Doar materiais escolares",
-      "localizacao": "Busca em Casa",
+      "imagem": "/assets/imagens/1719684729780.jpg",
+      "anfitriao": "PUC Minas",
+      "id_anfitriao": "d220",
+      "nome": "Doação de Materiais Escolares",
+      "resumo": "Campanha para fornecer materiais escolares a crianças de famílias carentes, promovendo o acesso à educação.",
+      "localizacao": "Rua Érico Veríssimo 520, Bairro Rio Branco",
       "dia": {
         "opcoes": [
           {
-            "nome": "Segunda-Feira"
-          },
-          {
             "nome": "Terça-Feira"
-          },
-          {
-            "nome": "Quarta-Feira"
           },
           {
             "nome": "Quinta-Feira"
@@ -1015,7 +618,7 @@
           }
         ]
       },
-      "horario": "10:00 - 19:00",
+      "horario": "9:30 - 17:00",
       "periodo": {
         "opcoes": [
           {
@@ -1023,9 +626,312 @@
           },
           {
             "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Venda Nova"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719685090152",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Idosos"
           },
           {
+            "nome": "Crianças"
+          },
+          {
+            "nome": "Pessoas e famílias necessitadas"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719685090125.jpg",
+      "anfitriao": "PUC Minas",
+      "id_anfitriao": "d220",
+      "nome": "Doação de Roupas e Cobertores",
+      "resumo": "Coleta de roupas e cobertores para ajudar famílias e indivíduos em situação de rua durante o inverno.",
+      "localizacao": "Avenida Antônio Carlos 6627, Bairro Pampulha",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          },
+          {
+            "nome": "Domingo"
+          }
+        ]
+      },
+      "horario": "10:00 - 15:30",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Pampulha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719687289441",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Animais"
+          },
+          {
+            "nome": "Ambientais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719687289435.jpg",
+      "anfitriao": "ONG Amigo Bicho",
+      "id_anfitriao": "2efe",
+      "nome": "Campanha de Proteção Animal",
+      "resumo": "Campanha para arrecadar ração, medicamentos, cobertores e outros itens essenciais para animais resgatados e em situação de abandono.",
+      "localizacao": "Avenida Cristiano Machado, 4000 - Bairro União/Avenida Bernardo Monteiro, 1567 - Bairro Santa Efigênia",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
+          {
+            "nome": "Quarta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          },
+          {
+            "nome": "Sábado"
+          }
+        ]
+      },
+      "horario": "10:15 - 16:30",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Leste"
+          },
+          {
+            "nome": "Região Nordeste"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719688875376",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Hospitais"
+          },
+          {
+            "nome": "Crianças"
+          },
+          {
+            "nome": "Pessoas e famílias necessitadas"
+          },
+          {
+            "nome": "Educacionais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719688875365.jpg",
+      "anfitriao": "Instituto Educar",
+      "id_anfitriao": "a4da",
+      "nome": "Doação de Livros",
+      "resumo": "Coleta de livros para montar bibliotecas em hospitais e escolas públicas, incentivando a leitura.",
+      "localizacao": "Avenida Amazonas 7675, Bairro Nova Cintra ou Coleta a domicílio",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sábado"
+          }
+        ]
+      },
+      "horario": "9:30 - 17:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          },
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Oeste"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719689687894",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Hospitais"
+          },
+          {
+            "nome": "Crianças"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719689687887.jpg",
+      "anfitriao": "Hospital Santa Casa",
+      "id_anfitriao": "6a3a",
+      "nome": "Coleta de Brinquedos",
+      "resumo": "Coleta de brinquedos novos e usados para distribuir a crianças hospitalizadas em Belo Horizonte.",
+      "localizacao": "Avenida Antônio Carlos 7450, Bairro São Francisco",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Terça-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          }
+        ]
+      },
+      "horario": "19:00 - 22:00",
+      "periodo": {
+        "opcoes": [
+          {
             "nome": "Noite"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Norte"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719689838483",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Idosos"
+          },
+          {
+            "nome": "Hospitais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719689838476.jpg",
+      "anfitriao": "Hospital Santa Casa",
+      "id_anfitriao": "6a3a",
+      "nome": "Doação de Equipamentos de Proteção Individual (EPIs)",
+      "resumo": "Arrecadação de EPIs para proteger profissionais de saúde e pacientes durante a pandemia.",
+      "localizacao": "Avenida Dom Pedro II, 1678 - Bairro Carlos Prates",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Terça-Feira"
+          },
+          {
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          }
+        ]
+      },
+      "horario": "06:00 - 12:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Manhã"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Noroeste"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719690333491",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Idosos"
+          },
+          {
+            "nome": "Pessoas e famílias necessitadas"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719690333411.jpg",
+      "anfitriao": "Cruz Vermelha",
+      "id_anfitriao": "6fd4",
+      "nome": "Campanha de Arrecadação de Alimentos",
+      "resumo": "Campanha para arrecadação de alimentos para famílias carentes e idosos necessitados.",
+      "localizacao": "Rua Caratinga 451, Bairro Anchieta",
+      "dia": {
+        "opcoes": [
+          {
+            "nome": "Segunda-Feira"
+          },
+          {
+            "nome": "Quarta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
+          }
+        ]
+      },
+      "horario": "14:00 - 17:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Tarde"
           }
         ]
       },
@@ -1036,104 +942,58 @@
           }
         ]
       }
-    }
-  ],
-  "cfinanceira": [
+    },
     {
-      "id": "1",
-      "nome": "Campanha de Inclusão Digital para Idosos",
-      "anfitriao": "Instituto Bem Viver",
-      "imagem": "/assets/imagens/inclusaoDigitalIdosos.jpg",
+      "id": "1719691076717",
       "temas": {
         "opcoes": [
           {
             "nome": "Idosos"
           },
           {
-            "nome": "Educação"
-          }
-        ]
-      },
-      "ibancarias": "Chave do pix CPF: 123.456.789-00",
-      "resumo": "Campanha para financiar cursos de inclusão digital para idosos, promovendo acesso à tecnologia e ao conhecimento."
-    },
-    {
-      "id": "2",
-      "nome": "Campanha de Educação Inclusiva",
-      "anfitriao": "Fundação Educa Brasil",
-      "imagem": "/assets/imagens/educacaoInclusiva.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Crianças"
-          },
-          {
-            "nome": "Educação"
-          }
-        ]
-      },
-      "ibancarias": "Chave do pix CPF: 852.456.753-00",
-      "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos."
-    },
-    {
-      "id": "3",
-      "nome": "Campanha de Apoio às Crianças em Situação de Risco",
-      "anfitriao": "ONG Criança Feliz",
-      "imagem": "/assets/imagens/apoioCriancas.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Crianças"
-          },
-          {
             "nome": "Pessoas e famílias necessitadas"
-          },
-          {
-            "nome": "Educação"
           }
         ]
       },
-      "ibancarias": "Chave do pix CPF: 159.753.486-00",
-      "resumo": "Campanha para arrecadar fundos destinados a programas de proteção e educação para crianças em situação de risco."
-    },
-    {
-      "id": "4",
-      "nome": "Campanha de Assistência a Famílias Carentes",
+      "imagem": "/assets/imagens/1719691076693.jpg",
       "anfitriao": "Projeto Solidariedade",
-      "imagem": "/assets/imagens/assistenciaFamilias.jpg",
-      "temas": {
+      "id_anfitriao": "1dfd",
+      "nome": "Coleta de Produtos de Higiene Pessoal",
+      "resumo": "Coleta de produtos de higiene pessoal para distribuição a famílias carentes, lares de idosos e indivíduos em situação de rua.",
+      "localizacao": "Avenida Sinfrônio Brochado, 2400 - Bairro Barreiro",
+      "dia": {
         "opcoes": [
           {
-            "nome": "Pessoas e famílias necessitadas"
-          }
-        ]
-      },
-      "ibancarias": "Chave do pix CPF: 753.159.852-00",
-      "resumo": "Arrecadação de dinheiro para fornecer alimentos, roupas e suporte financeiro a famílias em situação de vulnerabilidade."
-    },
-    {
-      "id": "5",
-      "nome": "Campanha de Preservação Ambiental",
-      "anfitriao": "Verde Esperança",
-      "imagem": "/assets/imagens/preservacaoAmbiental.jpg",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Animais"
+            "nome": "Terça-Feira"
           },
           {
-            "nome": "Meio Ambiente"
+            "nome": "Quinta-Feira"
+          },
+          {
+            "nome": "Sexta-Feira"
           }
         ]
       },
-      "ibancarias": "Chave do pix CPF: 456.789.123-00",
-      "resumo": "Campanha para financiar projetos de preservação ambiental e recuperação de áreas degradadas."
-    },
+      "horario": "13:00 - 18:00",
+      "periodo": {
+        "opcoes": [
+          {
+            "nome": "Tarde"
+          }
+        ]
+      },
+      "local": {
+        "opcoes": [
+          {
+            "nome": "Região Barreiro"
+          }
+        ]
+      }
+    }
+  ],
+  "cfinanceira": [
     {
-      "id": "6",
-      "nome": "Campanha de Apoio aos Hospitais Públicos",
-      "anfitriao": "Fundação Saúde para Todos",
-      "imagem": "/assets/imagens/apoioHospitais.jpg",
+      "id": "1719686596838",
       "temas": {
         "opcoes": [
           {
@@ -1144,14 +1004,15 @@
           }
         ]
       },
-      "ibancarias": "Chave do pix CPF: 987.654.321-00",
-      "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes."
+      "imagem": "/assets/imagens/1719686596833.jpg",
+      "anfitriao": "UFMG",
+      "id_anfitriao": "7ce5",
+      "nome": "Campanha de Apoio aos Hospitais Públicos",
+      "resumo": "Arrecadação de fundos para comprar equipamentos médicos e insumos para hospitais públicos em áreas carentes.",
+      "ibancarias": "Chave do pix CPF: 987.654.321-00"
     },
     {
-      "id": "7",
-      "nome": "Campanha de Proteção Animal",
-      "anfitriao": "Associação Protetora dos Animais",
-      "imagem": "/assets/imagens/protecaoAnimal.jpg",
+      "id": "1719687427447",
       "temas": {
         "opcoes": [
           {
@@ -1159,39 +1020,104 @@
           }
         ]
       },
-      "ibancarias": "Chave do pix CPF: 150.579.436-69",
-      "resumo": "Campanha para arrecadar fundos destinados à compra de ração, medicamentos, cobertores e outros itens essenciais para animais resgatados."
+      "imagem": "/assets/imagens/1719687427441.jpg",
+      "anfitriao": "ONG Amigo Bicho",
+      "id_anfitriao": "2efe",
+      "nome": "Campanha de Proteção Animal",
+      "resumo": "Campanha para arrecadar fundos destinados à compra de ração, medicamentos, cobertores e outros itens essenciais para animais resgatados.",
+      "ibancarias": "Chave do pix CPF: 150.579.436-69"
     },
     {
-      "id": "1719610042731",
+      "id": "1719687968877",
       "temas": {
         "opcoes": [
           {
             "nome": "Idosos"
+          },
+          {
+            "nome": "Educacionais"
           }
         ]
       },
-      "imagem": "/assets/imagens/1719610042697.png",
-      "anfitriao": "Joao Maia",
-      "nome": "vdwegdye",
-      "resumo": "wufi4wy3gy4",
-      "ibancarias": "24ri2g4ry"
+      "imagem": "/assets/imagens/1719687968870.jpg",
+      "anfitriao": "Lar São Vicente",
+      "id_anfitriao": "2685",
+      "nome": "Campanha de Inclusão Digital para Idosos",
+      "resumo": "Campanha para financiar cursos de inclusão digital para idosos, promovendo acesso à tecnologia e ao conhecimento.",
+      "ibancarias": "Chave do pix CPF: 123.456.789-00"
     },
     {
-      "id": "1719610157734",
+      "id": "1719689038216",
       "temas": {
         "opcoes": [
           {
-            "nome": "Idosos"
+            "nome": "Crianças"
+          },
+          {
+            "nome": "Educacionais"
           }
         ]
       },
-      "imagem": "/assets/imagens/1719610157712.png",
-      "anfitriao": "Joao Maia",
-      "id_anfitriao": "26b9",
-      "nome": "wegygydegyewdgy",
-      "resumo": "wedyudyeuwye",
-      "ibancarias": "wedggyeygwe"
+      "imagem": "/assets/imagens/1719689038101.jpg",
+      "anfitriao": "Instituto Educar",
+      "id_anfitriao": "a4da",
+      "nome": "Campanha de Educação Inclusiva",
+      "resumo": "Arrecadação de fundos para apoiar programas de educação inclusiva, garantindo acesso igualitário ao ensino para todos.",
+      "ibancarias": "Chave do pix CPF: 852.456.753-00"
+    },
+    {
+      "id": "1719690502476",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Crianças"
+          },
+          {
+            "nome": "Pessoas e famílias necessitadas"
+          },
+          {
+            "nome": "Educacionais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719690502465.jpg",
+      "anfitriao": "Cruz Vermelha",
+      "id_anfitriao": "6fd4",
+      "nome": "Campanha de Apoio às Crianças em Situação de Risco",
+      "resumo": "Campanha para arrecadar fundos destinados a programas de proteção e educação para crianças em situação de risco.",
+      "ibancarias": "Chave do pix CPF: 159.753.486-00"
+    },
+    {
+      "id": "1719691192723",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Pessoas e famílias necessitadas"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719691192716.jpg",
+      "anfitriao": "Projeto Solidariedade",
+      "id_anfitriao": "1dfd",
+      "nome": "Campanha de Assistência a Famílias Carentes",
+      "resumo": "Arrecadação de dinheiro para fornecer alimentos, roupas e suporte financeiro a famílias em situação de vulnerabilidade.",
+      "ibancarias": "Chave do pix CPF: 753.159.852-00"
+    },
+    {
+      "id": "1719691378330",
+      "temas": {
+        "opcoes": [
+          {
+            "nome": "Ambientais"
+          }
+        ]
+      },
+      "imagem": "/assets/imagens/1719691378313.jpg",
+      "anfitriao": "ONG Verde Esperança",
+      "id_anfitriao": "3f6c",
+      "nome": "Campanha de Preservação Ambiental",
+      "resumo": "Campanha para financiar projetos de preservação ambiental e recuperação de áreas degradadas.",
+      "ibancarias": "Chave do pix CPF: 456.789.123-00"
     }
   ]
 }

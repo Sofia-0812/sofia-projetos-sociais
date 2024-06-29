@@ -109,6 +109,7 @@ async function preencherTemplate() {
                     btnAjudou.disabled = true;
                     btnNaoAjudou.disabled = true;
                     usuarioAtual.id_duvidasAvaliadas.push(duvida.id);
+                    alert('Recebemos seu feedback!');
 
                     if (usuarioLogado) {
                         await atualizarUsuarioAvaliacao(usuarioAtual.id, usuarioAtual.id_duvidasAvaliadas);
@@ -142,6 +143,7 @@ async function preencherTemplate() {
                     btnNaoAjudou.disabled = true;
                     btnAjudou.disabled = true;
                     usuarioAtual.id_duvidasAvaliadas.push(duvida.id);
+                    alert('Recebemos seu feedback!');
 
                     if (usuarioLogado) {
                         await atualizarUsuarioAvaliacao(usuarioAtual.id, usuarioAtual.id_duvidasAvaliadas);

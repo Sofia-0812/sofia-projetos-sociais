@@ -2,17 +2,18 @@ let parametros = new URLSearchParams(window.location.search);
 let id = parametros.get("id");
 console.log(id);
 
+
 usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
-const idUsuario = usuarioLogado.id;
 
 async function verificarUsuarioLogado() {
+    if(usuarioLogado){
+        const idUsuario = usuarioLogado.id;
     const responseUsuario = await fetch(`http://localhost:3001/usuarios/${idUsuario}`);
     if (!responseUsuario.ok) {
         throw new Error('Erro ao obter dados do usuário.');
     }
     const usuario = await responseUsuario.json();
 
-    if (usuarioLogado) {
         if (usuario.id_favoritos && usuario.id_favoritos.includes(id)) {
             document.getElementById('btnFav').addEventListener('click', function () {
                 alert('Este projeto já está nos seus favoritos');
@@ -21,7 +22,7 @@ async function verificarUsuarioLogado() {
         } else {
             document.getElementById('btnFav').disabled = false;
             document.getElementById('btnFav').addEventListener('click', function () {
-                favoritarProjeto(id, usuario);
+                favoritarProjeto(id, usuario, idUsuario);
             });
         }
     } else {
@@ -32,14 +33,14 @@ async function verificarUsuarioLogado() {
     }
 }
 
-async function favoritarProjeto(idProjeto, user) {
+async function favoritarProjeto(idProjeto, user, IDUsuario) {
     if (!user.id_favoritos) {
         user.id_favoritos = [];
     }
 
     user.id_favoritos.push(idProjeto);
 
-    const response = await fetch(`http://localhost:3001/usuarios/${idUsuario}`, {
+    const response = await fetch(`http://localhost:3001/usuarios/${IDUsuario}`, {
         method: 'PATCH', 
         headers: {
             'Content-Type': 'application/json'
@@ -75,6 +76,7 @@ fetch(`http://localhost:3001/volunt?id=${id}`)
                     console.log(anfitData);
                     let anfitriao = anfitData[0];
                     document.getElementById('infoAnfitriao').innerHTML = `<strong>Informações do Anfitrião: </strong>` + anfitriao.info;
+                    document.getElementById('contato').innerHTML = `<strong>Contato do Anfitrião: </strong>` + anfitriao.email;
                 });
         } else {
             console.error(`Voluntariado com ID ${id} não encontrado.`);

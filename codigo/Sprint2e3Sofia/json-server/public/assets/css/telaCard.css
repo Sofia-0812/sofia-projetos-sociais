@@ -54,6 +54,10 @@ main{
 
 @media screen and (max-width: 1195px){
 
+    #btnFav{
+        margin-top: 15px;
+    }
+
     main{
         display: block;
         padding-top: 80px;
