@@ -21,9 +21,8 @@
       "nome": "Joao Maia",
       "email": "joaomaia@gmail.com",
       "senha": "789",
-      "info": "Estudante de Ciência da computacao da puc minas",
+      "info": "Para contribuir financeiramente, clique no menu Contribuição Financeira e selecione o projeto desejado. As informações bancárias estarão disponíveis na página do projeto. A transação deve ser feita fora do nosso site, usando os dados fornecidos. Certifique-se de confirmar a transferência com o anfitrião.",
       "id_meusProjetos": [
-        "1719607329549",
         "1719610042731",
         "1719610157734",
         "1719611075029"
@@ -516,43 +515,6 @@
         "opcoes": [
           {
             "nome": "Região Pampulha"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1719607329549",
-      "temas": {
-        "opcoes": [
-          {
-            "nome": "Animais"
-          }
-        ]
-      },
-      "imagem": "/assets/imagens/1719607329529.jpg",
-      "anfitriao": "Joao Maia",
-      "nome": "Inclusao das tartarugas",
-      "resumo": "hewbfwyegufwe",
-      "localizacao": "wehjvhjewfjve",
-      "dia": {
-        "opcoes": [
-          {
-            "nome": "Quarta-Feira"
-          }
-        ]
-      },
-      "horario": "ewfewfe",
-      "periodo": {
-        "opcoes": [
-          {
-            "nome": "Tarde"
-          }
-        ]
-      },
-      "local": {
-        "opcoes": [
-          {
-            "nome": "Região Oeste"
           }
         ]
       }

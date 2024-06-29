@@ -35,7 +35,7 @@ if (usuarioLogado) {
     <ul id="menuPerfil">
         <li class="mpItem" id="pNome"><p>${usuarioLogado.nome}</p></li>
         <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
-        <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="#">Favoritos</a></li>
+        <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="favoritos.html">Favoritos</a></li>
         <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logoutMobile">Sair</a></li>
     </ul>
     <div id="secoesMenu">
@@ -55,7 +55,7 @@ if (usuarioLogado) {
                 <ul id="menuPerfil">
                     <li class="mpItem" id="pNome"><p>${usuarioLogado.nome}</p></li>
                     <li class="mpItem" id="mp1"><img src="assets/imagens/gear-solid.webp"><a href="#">Configurações</a></li>
-                    <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="#">Favoritos</a></li>
+                    <li class="mpItem" id="mp2"><img src="assets/imagens/heart-regular.svg"><a href="favoritos.html">Favoritos</a></li>
                     <li class="mpItem" id="mp4"><img src="assets/imagens/arrow-right-from-bracket-solid.svg"><a href="#" id="logout">Sair</a></li>
                 </ul>
             </li>

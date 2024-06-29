@@ -20,48 +20,15 @@ async function obterProjetosDoAnfitriao(anfitriaoId) {
                     response = await fetch(`http://localhost:3001/cfinanceira/${projetoId}`);
                 }
             }
-            return await response.json();
+            const projeto = await response.json();
+            projeto.tipo = response.url.includes('volunt') ? 'volunt' : response.url.includes('doacoes') ? 'doacoes' : 'cfinanceira';
+            return projeto;
         }));
-
-        // Calcular a média das notas dos projetos
-        const notas = projetos.flatMap(projeto => projeto.notas || []);
-        const somaNotas = notas.reduce((acc, nota) => acc + nota, 0);
-        let mediaNotas = somaNotas / notas.length;
-
-        // Arredondar para o próximo inteiro maior, se necessário
-        if (!isNaN(mediaNotas)) {
-            mediaNotas = Math.ceil(mediaNotas);
-        }
-
-        console.log("Média das notas:", mediaNotas);
-
-        // Preencher dinamicamente a div de avaliação com ícones ou mensagem
-        preencherAvaliacaoNoHTML(mediaNotas);
 
         return projetos;
     } catch (error) {
         console.error('Erro ao obter projetos do anfitrião:', error);
         return [];
-    }
-}
-
-// Função para preencher dinamicamente a div de avaliação com ícones ou mensagem
-function preencherAvaliacaoNoHTML(mediaNotas) {
-    const iconsContainer = document.getElementById('icons-container');
-    iconsContainer.innerHTML = ''; // Limpar o conteúdo atual
-
-    // Verificar se a média de notas é NaN
-    if (isNaN(mediaNotas) || mediaNotas === 0) {
-        const mensagem = document.createElement('p');
-        mensagem.textContent = 'Você ainda não foi avaliado.';
-        iconsContainer.appendChild(mensagem);
-    } else {
-        // Adicionar ícones com base na média de notas
-        for (let i = 0; i < mediaNotas; i++) {
-            const icon = document.createElement('i');
-            icon.classList.add('bi', 'bi-star-fill', 'initial-star');
-            iconsContainer.appendChild(icon);
-        }
     }
 }
 
@@ -85,19 +52,66 @@ async function preencherProjetosNoHTML() {
             // Criar uma cópia do template
             const cardClone = document.importNode(template.content, true);
         
-            // Preencher os elementos do card com os dados do projeto
-            cardClone.querySelector(".projtitulo").textContent = projeto.nome;
-            cardClone.querySelector(".projimagem").src = projeto.imagem;
-            cardClone.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitriao}`;
-            cardClone.querySelector(".temas").innerHTML = `<strong>Temas:</strong> ${obterSelecionados(projeto.temas.opcoes)}`;
-            cardClone.querySelector(".resumo").textContent = projeto.resumo;
-        
+            const cardElement = cardClone.querySelector('.card');
+            cardElement.querySelector(".projtitulo").textContent = projeto.nome;
+            cardElement.querySelector(".projimagem").src = projeto.imagem;
+            cardElement.querySelector(".anfitriao").innerHTML = `<strong>Anfitrião:</strong> ${projeto.anfitriao}`;
+            cardElement.querySelector(".temas").innerHTML = `<strong>Temas:</strong> ${obterSelecionados(projeto.temas.opcoes)}`;
+            cardElement.querySelector(".resumo").textContent = projeto.resumo;
+            
+            // Adicionar evento de clique para o botão de excluir
+            const btnExcluir = cardElement.querySelector("#btnExcluir");
+            btnExcluir.addEventListener('click', async () => {
+                await excluirProjeto(anfitriaoId, projeto.id, projeto.tipo);
+                cardElement.style.display = 'none';
+            });
+
             return cardClone;
-          }
-
-
+        }
     } catch (error) {
         console.error('Erro ao preencher projetos no HTML:', error);
+    }
+}
+
+// Função para excluir um projeto
+async function excluirProjeto(anfitriaoId, projetoId, tipo) {
+    try {
+        // Obter dados do anfitrião
+        const responseAnfitriao = await fetch(`http://localhost:3001/anfitrioes/${anfitriaoId}`);
+        if (!responseAnfitriao.ok) {
+            throw new Error('Erro ao obter dados do anfitrião.');
+        }
+        const anfitriao = await responseAnfitriao.json();
+        
+        // Remover o projeto do array id_meusProjetos do anfitrião
+        const novosProjetosIds = anfitriao.id_meusProjetos.filter(id => id !== projetoId);
+
+        // Atualizar o anfitrião com o novo array de projetos
+        const anfitriaoAtualizado = {
+            ...anfitriao,
+            id_meusProjetos: novosProjetosIds
+        };
+
+        const responseAtualizarAnfitriao = await fetch(`http://localhost:3001/anfitrioes/${anfitriaoId}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(anfitriaoAtualizado)
+        });
+        if (!responseAtualizarAnfitriao.ok) {
+            throw new Error('Erro ao atualizar projetos do anfitrião.');
+        }
+
+        // Remover o projeto do banco de dados
+        const responseDeletarProjeto = await fetch(`http://localhost:3001/${tipo}/${projetoId}`, {
+            method: 'DELETE'
+        });
+        if (!responseDeletarProjeto.ok) {
+            throw new Error('Erro ao deletar projeto.');
+        }
+
+        console.log(`Projeto ${projetoId} deletado com sucesso.`);
+    } catch (error) {
+        console.error('Erro ao excluir projeto:', error);
     }
 }
 
@@ -106,10 +120,9 @@ function obterSelecionados(opcoes) {
     const Selecionados = opcoes
       .map((opcao) => opcao.nome)
       .join(", ");
-
     return Selecionados;
-  }
-  
+}
+
 // Chamar a função para preencher os projetos no carregamento da página
 window.addEventListener('load', () => {
     preencherProjetosNoHTML();
