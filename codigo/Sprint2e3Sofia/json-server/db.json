@@ -8,6 +8,9 @@
       "id_meusProjetos": [
         "1719594259745",
         "1719594457434"
+      ],
+      "id_duvidasAvaliadas": [
+        "2"
       ]
     },
     {
@@ -34,9 +37,12 @@
       "id": "1",
       "nome": "João Victor",
       "email": "usuario1@email.com",
-      "senha": "senha1",
+      "senha": "1704",
       "id_favoritos": [
         "1719594259745",
+        "1"
+      ],
+      "id_duvidasAvaliadas": [
         "1"
       ]
     },
@@ -70,29 +76,29 @@
     },
     {
       "id": "3",
-      "titulo": "Como visualizar os projetos em que participei?",
-      "texto": "Para visualizar os projetos em que você participou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\".",
-      "ajudou": 0,
-      "naoAjudou": 1
-    },
-    {
-      "id": "4",
       "titulo": "Como visualizar os projetos que publiquei como Anfitrião?",
       "texto": "Para visualizar os projetos que você publicou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\".",
       "ajudou": 0,
       "naoAjudou": 0
     },
     {
-      "id": "5",
+      "id": "4",
       "titulo": "Como avaliar um projeto em que participei?",
       "texto": "Para avaliar os projetos em que você participou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\". Na tela de \"Meus Projetos\" você conseguirá avaliar os anfitriões provedores dos projetos em que participou. ",
       "ajudou": 0,
       "naoAjudou": 0
     },
     {
-      "id": "6",
+      "id": "5",
       "titulo": "Como realizar uma contribuição financeira?",
       "texto": "Para fazer uma doação de dinheiro, você deve clicar no botão do menu de \"Contribuição Financeira\", depois nessa tela você deve clicar no card do projeto para o qual deseja contribuir. Na página específica do projeto terão as informações bancárias do anfitrião. Não é possível fazer a transação financeira diretamente do nosso site, portanto você deve usar as informações fornecidas para fazer a transação por conta própria.",
+      "ajudou": 0,
+      "naoAjudou": 0
+    },
+    {
+      "id": "6",
+      "titulo": "Como entrar em contato com o anfitrião?",
+      "texto": "Não é possível entrar em contato com o anfitrião diretamente pelo site. No entanto, ao clicar no card de um projeto de seu interesse, as informações de contato do anfitrião estarão disponíveis para que você possa entrar em contato.",
       "ajudou": 0,
       "naoAjudou": 0
     },
