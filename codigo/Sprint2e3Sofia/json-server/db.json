@@ -540,7 +540,7 @@
       "id_anfitriao": "6fd4",
       "nome": "Alimentação Solidária",
       "resumo": "Iniciativa para distribuir alimentos a famílias carentes, garantindo segurança alimentar e promovendo a saúde e nutrição.",
-      "localizacao": "Rua Niquelina 1700, Bairro Santa Efigênia/Avenida do Contorno 6000, Bairro Funcionários/Avenida Cristiano Machado 6500, Bairro União",
+      "localizacao": "Rua Niquelina 1700, Bairro Santa Efigênia",
       "dia": {
         "opcoes": [
           {
@@ -710,7 +710,7 @@
       "id_anfitriao": "2efe",
       "nome": "Campanha de Proteção Animal",
       "resumo": "Campanha para arrecadar ração, medicamentos, cobertores e outros itens essenciais para animais resgatados e em situação de abandono.",
-      "localizacao": "Avenida Cristiano Machado, 4000 - Bairro União/Avenida Bernardo Monteiro, 1567 - Bairro Santa Efigênia",
+      "localizacao": "Avenida Bernardo Monteiro, 1567 - Bairro Santa Efigênia",
       "dia": {
         "opcoes": [
           {

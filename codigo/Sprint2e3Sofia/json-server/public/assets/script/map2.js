@@ -43,7 +43,7 @@ function initMap() {
     const itemId = urlParams.get('id');
 
 
-    fetch(`http://localhost:3001/volunt?id=${itemId}`)
+    fetch(`http://localhost:3001/doacoes?id=${itemId}`)
         .then(res => res.json())
         .then(data => {
             if (data && data.length > 0) {

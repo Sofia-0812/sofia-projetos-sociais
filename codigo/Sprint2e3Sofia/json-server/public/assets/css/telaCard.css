@@ -51,6 +51,27 @@ main{
     transform: scale(1.02);
 }
 
+#map {
+    margin-top: 20px;
+    grid-column: 1/3;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#pac-input {
+    margin-top: 13px;
+    font-size: 10px;
+    width: 20%;
+    display: none;
+}        
+
 
 @media screen and (max-width: 1195px){
 

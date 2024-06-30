@@ -36,6 +36,9 @@
             <p id="dias"></p>
             <p id="localizacao"></p>
         </div>
+        <input id="pac-input" class="controls" type="text" placeholder="Digite o endereço">
+        <div id="map"></div>
+
     </main>
 
     <footer>
@@ -45,6 +48,13 @@
     <script src="assets/script/geral.js"></script>
     
     <script src="assets/script/cardDoacao.js"></script>
+
+    <script src="assets/script/map2.js"></script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP_Q9drNWUwaQ7hRycL7aSB-eyl_ATsus&callback=initMap&libraries=places&v=weekly"
+        async>
+    </script>
 
     <script>
         window.addEventListener('load', function () {

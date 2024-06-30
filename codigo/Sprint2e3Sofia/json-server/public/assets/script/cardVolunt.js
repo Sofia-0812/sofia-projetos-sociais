@@ -82,7 +82,7 @@ fetch(`http://localhost:3001/volunt?id=${id}`)
                     console.log(anfitData);
                     let anfitriao = anfitData[0];
                     document.getElementById('infoAnfitriao').innerHTML = `<strong>Informações do Anfitrião: </strong>` + anfitriao.info;
-                    document.getElementById('contato').innerHTML = `<strong>Contato do Anfitrião: </strong>` + anfitriao.email;
+                    document.getElementById('contato').innerHTML = `<strong>Contato: </strong>` + anfitriao.email;
                 });
         } else {
             console.error(`Voluntariado com ID ${id} não encontrado.`);
