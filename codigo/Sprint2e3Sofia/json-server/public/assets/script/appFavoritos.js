@@ -93,6 +93,7 @@ async function retirarFavorito(usuarioId, projetoId) {
         // Remover o projeto do array id_meusProjetos do anfitrião
         const novosProjetosIds = usuario.id_favoritos.filter(id => id !== projetoId);
 
+
         // Atualizar o anfitrião com o novo array de projetos
         const responseAtualizarUsuario = await fetch(`http://localhost:3001/usuarios/${usuarioId}`, {
             method: 'PATCH',
@@ -102,6 +103,10 @@ async function retirarFavorito(usuarioId, projetoId) {
         if (!responseAtualizarUsuario.ok) {
             throw new Error('Erro ao atualizar favoritos do usuário.');
         }
+
+        // Atualizar localStorage e a variável local
+        usuarioLogado.id_favoritos = novosProjetosIds;
+        localStorage.setItem('usuarioLogado', JSON.stringify(usuarioLogado));
         
         alert('Projeto retirado dos favoritos com sucesso!');
         

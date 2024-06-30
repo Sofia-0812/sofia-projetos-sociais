@@ -10,6 +10,9 @@
         "1719684249689",
         "1719684729790",
         "1719685090152"
+      ],
+      "id_duvidasAvaliadas": [
+        "3"
       ]
     },
     {
@@ -110,11 +113,10 @@
   "usuarios": [
     {
       "id": "1c11",
-      "nome": "Sofia Grossi",
+      "nome": "Sofia Grossi ",
       "email": "sofiagrossi@gmail.com",
       "senha": "0812",
       "id_favoritos": [
-        "1719685691353",
         "1719688499550",
         "1719689687894",
         "1719688875376",
@@ -123,7 +125,8 @@
       ],
       "id_duvidasAvaliadas": [
         "1",
-        "3"
+        "3",
+        "2"
       ]
     },
     {
@@ -170,14 +173,14 @@
       "id": "2",
       "titulo": "Como visualizar meus projetos favoritos?",
       "texto": "Para visualizar seus favoritos, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Favoritos\".",
-      "ajudou": 1,
+      "ajudou": 2,
       "naoAjudou": 0
     },
     {
       "id": "3",
       "titulo": "Como visualizar os projetos que publiquei como Anfitrião?",
       "texto": "Para visualizar os projetos que você publicou, primeiramente você deve fazer login em sua conta (ou se cadastrar, caso não tenha uma), depois clicar no ícone do seu perfil no menu principal, o que fará com que um submenu apareça e, nele, você deve clicar no botão \"Meus Projetos\".",
-      "ajudou": 2,
+      "ajudou": 3,
       "naoAjudou": 0
     },
     {

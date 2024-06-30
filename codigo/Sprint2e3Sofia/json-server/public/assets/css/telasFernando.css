@@ -74,6 +74,10 @@ main{
     display: inline-flex;
 }
 
+.btn:hover{
+    transform: scale(1.02);
+}
+
 @media screen and (max-width: 1195px){
 
     main{

@@ -2,17 +2,18 @@ let parametros = new URLSearchParams(window.location.search);
 let id = parametros.get("id");
 console.log(id);
 
-
 usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 
+document.addEventListener('DOMContentLoaded', verificarUsuarioLogado);
+
 async function verificarUsuarioLogado() {
-    if(usuarioLogado){
+    if (usuarioLogado) {
         const idUsuario = usuarioLogado.id;
-    const responseUsuario = await fetch(`http://localhost:3001/usuarios/${idUsuario}`);
-    if (!responseUsuario.ok) {
-        throw new Error('Erro ao obter dados do usuário.');
-    }
-    const usuario = await responseUsuario.json();
+        const responseUsuario = await fetch(`http://localhost:3001/usuarios/${idUsuario}`);
+        if (!responseUsuario.ok) {
+            throw new Error('Erro ao obter dados do usuário.');
+        }
+        const usuario = await responseUsuario.json();
 
         if (usuario.id_favoritos && usuario.id_favoritos.includes(id)) {
             document.getElementById('btnFav').addEventListener('click', function () {
@@ -51,6 +52,11 @@ async function favoritarProjeto(idProjeto, user, IDUsuario) {
     if (response.ok) {
         alert('Projeto adicionado aos favoritos.');
         document.getElementById('btnFav').disabled = true;
+        
+        // Atualiza o usuarioLogado no localStorage
+        localStorage.setItem('usuarioLogado', JSON.stringify(user));
+        usuarioLogado = user; // Atualiza a variável local
+        console.log(usuarioLogado);
     } else {
         alert('Erro ao adicionar o projeto aos favoritos.');
     }
